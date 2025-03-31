@@ -1,32 +1,38 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'core/theme/app_theme.dart';
+import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'core/constants/app_constants.dart';
+import 'core/theme/app_theme.dart';
 import 'features/quiz/data/repositories/quiz_repository.dart';
-import 'features/quiz/presentation/bloc/quiz_bloc.dart';
 import 'features/quiz/presentation/pages/menu_page.dart';
 
-void main() {
-  runApp(const MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  final prefs = await SharedPreferences.getInstance();
+  runApp(MyApp(prefs: prefs));
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  final SharedPreferences prefs;
+
+  const MyApp({super.key, required this.prefs});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: AppConstants.appName,
-      theme: AppTheme.lightTheme,
-      darkTheme: AppTheme.darkTheme,
-      home: RepositoryProvider(
-        create: (context) => QuizRepository(),
-        child: BlocProvider(
-          create: (context) => QuizBloc(
-            repository: context.read<QuizRepository>(),
-          ),
-          child: const MenuPage(),
+    return MultiProvider(
+      providers: [
+        Provider<SharedPreferences>.value(value: prefs),
+        Provider<QuizRepository>(
+          create: (_) => QuizRepository(),
         ),
+      ],
+      child: MaterialApp(
+        title: AppConstants.appName,
+        theme: AppTheme.lightTheme,
+        darkTheme: AppTheme.darkTheme,
+        themeMode: ThemeMode.system,
+        debugShowCheckedModeBanner: false,
+        home: const MenuPage(),
       ),
     );
   }
