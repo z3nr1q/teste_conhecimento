@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../../core/constants/app_constants.dart';
+import '../../data/repositories/quiz_repository.dart';
+import '../bloc/quiz_bloc.dart';
 import 'quiz_page.dart';
 import 'settings_page.dart';
 
@@ -42,7 +45,14 @@ class MenuPage extends StatelessWidget {
                   icon: Icons.play_arrow,
                   label: 'Iniciar Quiz',
                   onTap: () => Navigator.of(context).push(
-                    MaterialPageRoute(builder: (_) => const QuizPage()),
+                    MaterialPageRoute(
+                      builder: (_) => BlocProvider(
+                        create: (_) => QuizBloc(
+                          repository: context.read<QuizRepository>(),
+                        ),
+                        child: const QuizPage(),
+                      ),
+                    ),
                   ),
                 ),
                 const SizedBox(height: 16),
