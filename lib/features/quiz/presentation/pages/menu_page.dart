@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import '../../../../core/constants/app_constants.dart';
 import 'quiz_page.dart';
+import 'settings_page.dart';
 
 class MenuPage extends StatelessWidget {
   const MenuPage({super.key});
@@ -48,9 +49,9 @@ class MenuPage extends StatelessWidget {
                 _MenuButton(
                   icon: Icons.settings,
                   label: 'Configurações',
-                  onTap: () {
-                    // TODO: Implementar tela de configurações
-                  },
+                  onTap: () => Navigator.of(context).push(
+                    MaterialPageRoute(builder: (_) => const SettingsPage()),
+                  ),
                 ),
                 const SizedBox(height: 16),
                 _MenuButton(
