@@ -10,43 +10,44 @@ abstract class QuizState extends Equatable {
 
 class QuizInitial extends QuizState {}
 
-class QuizLoading extends QuizState {}
+class QuizLoadingState extends QuizState {
+  const QuizLoadingState();
+}
 
-class QuizLoaded extends QuizState {
+class QuizLoadedState extends QuizState {
   final List<QuestionModel> questions;
   final int currentQuestionIndex;
   final int score;
-  final List<int> userAnswers;
 
-  const QuizLoaded({
+  QuestionModel get currentQuestion => questions[currentQuestionIndex];
+  bool get isQuizFinished => currentQuestionIndex >= questions.length;
+
+  const QuizLoadedState({
     required this.questions,
-    this.currentQuestionIndex = 0,
-    this.score = 0,
-    this.userAnswers = const [],
+    required this.currentQuestionIndex,
+    required this.score,
   });
 
   @override
-  List<Object?> get props => [questions, currentQuestionIndex, score, userAnswers];
+  List<Object?> get props => [questions, currentQuestionIndex, score];
 
-  QuizLoaded copyWith({
+  QuizLoadedState copyWith({
     List<QuestionModel>? questions,
     int? currentQuestionIndex,
     int? score,
-    List<int>? userAnswers,
   }) {
-    return QuizLoaded(
+    return QuizLoadedState(
       questions: questions ?? this.questions,
       currentQuestionIndex: currentQuestionIndex ?? this.currentQuestionIndex,
       score: score ?? this.score,
-      userAnswers: userAnswers ?? this.userAnswers,
     );
   }
 }
 
-class QuizError extends QuizState {
+class QuizErrorState extends QuizState {
   final String message;
 
-  const QuizError(this.message);
+  const QuizErrorState(this.message);
 
   @override
   List<Object?> get props => [message];

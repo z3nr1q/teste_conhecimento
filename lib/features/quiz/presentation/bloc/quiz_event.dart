@@ -7,25 +7,19 @@ abstract class QuizEvent extends Equatable {
   List<Object?> get props => [];
 }
 
-class LoadQuiz extends QuizEvent {
-  final String? category;
-  final int? difficulty;
-
-  const LoadQuiz({this.category, this.difficulty});
-
-  @override
-  List<Object?> get props => [category, difficulty];
+class LoadQuizEvent extends QuizEvent {
+  const LoadQuizEvent();
 }
 
-class AnswerQuestion extends QuizEvent {
-  final int answerIndex;
+class AnswerQuestionEvent extends QuizEvent {
+  final int selectedOptionIndex;
 
-  const AnswerQuestion(this.answerIndex);
+  const AnswerQuestionEvent({required this.selectedOptionIndex});
 
   @override
-  List<Object?> get props => [answerIndex];
+  List<Object?> get props => [selectedOptionIndex];
 }
 
-class NextQuestion extends QuizEvent {}
-
-class RestartQuiz extends QuizEvent {}
+class RestartQuizEvent extends QuizEvent {
+  const RestartQuizEvent();
+}

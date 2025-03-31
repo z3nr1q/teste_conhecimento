@@ -11,51 +11,47 @@ class QuizPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Disparar evento para carregar as questões assim que a página for construída
+    context.read<QuizBloc>().add(LoadQuizEvent());
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Quiz'),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.refresh),
-            onPressed: () => context.read<QuizBloc>().add(RestartQuiz()),
-          ),
-        ],
       ),
       body: BlocBuilder<QuizBloc, QuizState>(
         builder: (context, state) {
-          if (state is QuizInitial) {
-            context.read<QuizBloc>().add(const LoadQuiz());
-            return const Center(child: Text('Iniciando quiz...'));
-          }
-
-          if (state is QuizLoading) {
+          if (state is QuizLoadingState) {
             return const Center(child: CircularProgressIndicator());
-          }
-
-          if (state is QuizError) {
-            return Center(child: Text(state.message));
-          }
-
-          if (state is QuizLoaded) {
-            if (state.currentQuestionIndex >= state.questions.length) {
-              return ResultCard(
-                score: state.score,
-                totalQuestions: state.questions.length,
-                onRestart: () => context.read<QuizBloc>().add(RestartQuiz()),
-              );
-            }
-
-            final currentQuestion = state.questions[state.currentQuestionIndex];
-            return QuestionCard(
-              question: currentQuestion,
-              onAnswerSelected: (index) {
-                context.read<QuizBloc>().add(AnswerQuestion(index));
-                context.read<QuizBloc>().add(NextQuestion());
-              },
+          } else if (state is QuizLoadedState) {
+            return state.isQuizFinished
+                ? ResultCard(
+                    score: state.score,
+                    totalQuestions: state.questions.length,
+                    onRestartQuiz: () {
+                      context.read<QuizBloc>().add(RestartQuizEvent());
+                    },
+                  )
+                : QuestionCard(
+                    question: state.currentQuestion,
+                    onAnswerSelected: (selectedIndex) {
+                      context.read<QuizBloc>().add(
+                            AnswerQuestionEvent(
+                              selectedOptionIndex: selectedIndex,
+                            ),
+                          );
+                    },
+                  );
+          } else if (state is QuizErrorState) {
+            return Center(
+              child: Text(
+                'Erro: ${state.message}',
+                style: const TextStyle(color: Colors.red),
+              ),
             );
           }
-
-          return const Center(child: Text('Estado não tratado'));
+          return const Center(
+            child: Text('Estado não tratado'),
+          );
         },
       ),
     );

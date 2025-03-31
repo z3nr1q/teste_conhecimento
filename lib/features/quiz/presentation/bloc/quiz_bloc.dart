@@ -6,65 +6,53 @@ import 'quiz_state.dart';
 class QuizBloc extends Bloc<QuizEvent, QuizState> {
   final QuizRepository repository;
 
-  QuizBloc({required this.repository}) : super(QuizInitial()) {
-    on<LoadQuiz>(_onLoadQuiz);
-    on<AnswerQuestion>(_onAnswerQuestion);
-    on<NextQuestion>(_onNextQuestion);
-    on<RestartQuiz>(_onRestartQuiz);
+  QuizBloc({required this.repository}) : super(const QuizLoadingState()) {
+    on<LoadQuizEvent>(_onLoadQuiz);
+    on<AnswerQuestionEvent>(_onAnswerQuestion);
+    on<RestartQuizEvent>(_onRestartQuiz);
   }
 
-  Future<void> _onLoadQuiz(LoadQuiz event, Emitter<QuizState> emit) async {
-    emit(QuizLoading());
+  Future<void> _onLoadQuiz(LoadQuizEvent event, Emitter<QuizState> emit) async {
+    emit(const QuizLoadingState());
     try {
-      final questions = await repository.getQuestions(
-        category: event.category,
-        difficulty: event.difficulty,
-      );
+      final questions = await repository.getQuestions();
       if (questions.isEmpty) {
-        emit(const QuizError('Nenhuma questão encontrada'));
+        emit(const QuizErrorState('Nenhuma questão encontrada'));
       } else {
-        emit(QuizLoaded(questions: questions));
+        emit(QuizLoadedState(
+          questions: questions,
+          currentQuestionIndex: 0,
+          score: 0,
+        ));
       }
     } catch (e) {
-      emit(QuizError(e.toString()));
+      emit(QuizErrorState('Erro ao carregar questões: $e'));
     }
   }
 
-  void _onAnswerQuestion(AnswerQuestion event, Emitter<QuizState> emit) {
-    if (state is QuizLoaded) {
-      final currentState = state as QuizLoaded;
-      final currentQuestion = currentState.questions[currentState.currentQuestionIndex];
-      final isCorrect = event.answerIndex == currentQuestion.correctOptionIndex;
-      
+  void _onAnswerQuestion(AnswerQuestionEvent event, Emitter<QuizState> emit) {
+    if (state is QuizLoadedState) {
+      final currentState = state as QuizLoadedState;
+      final isCorrect = event.selectedOptionIndex ==
+          currentState.currentQuestion.correctOptionIndex;
+
       final newScore = isCorrect ? currentState.score + 1 : currentState.score;
-      final newAnswers = List<int>.from(currentState.userAnswers)..add(event.answerIndex);
+      final newIndex = currentState.currentQuestionIndex + 1;
 
       emit(currentState.copyWith(
+        currentQuestionIndex: newIndex,
         score: newScore,
-        userAnswers: newAnswers,
       ));
     }
   }
 
-  void _onNextQuestion(NextQuestion event, Emitter<QuizState> emit) {
-    if (state is QuizLoaded) {
-      final currentState = state as QuizLoaded;
-      if (currentState.currentQuestionIndex < currentState.questions.length - 1) {
-        emit(currentState.copyWith(
-          currentQuestionIndex: currentState.currentQuestionIndex + 1,
-        ));
-      }
-    }
-  }
-
-  void _onRestartQuiz(RestartQuiz event, Emitter<QuizState> emit) {
-    if (state is QuizLoaded) {
-      final currentState = state as QuizLoaded;
-      emit(QuizLoaded(
+  void _onRestartQuiz(RestartQuizEvent event, Emitter<QuizState> emit) {
+    if (state is QuizLoadedState) {
+      final currentState = state as QuizLoadedState;
+      emit(QuizLoadedState(
         questions: currentState.questions,
         currentQuestionIndex: 0,
         score: 0,
-        userAnswers: const [],
       ));
     }
   }
