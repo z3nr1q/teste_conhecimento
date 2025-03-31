@@ -30,20 +30,19 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  provider: ^6.1.2  # Para gerenciamento de estado
+  shared_preferences: ^2.2.2  # Para persistência local
+  sqflite: ^2.3.2  # Para banco de dados local
+  path: ^1.9.0  # Para manipulação de caminhos
+  flutter_bloc: ^8.1.4  # Para arquitetura BLoC
+  equatable: ^2.0.5  # Para comparação de objetos
+  google_fonts: ^6.2.1  # Para fontes personalizadas
+  flutter_animate: ^4.5.0  # Para animações
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
   flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
