@@ -2,13 +2,19 @@ import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 import '../../../../core/constants/app_constants.dart';
 import '../models/question_model.dart';
+import 'quiz_data.dart';
 
 class QuizRepository {
   static Database? _database;
+  bool _initialized = false;
 
   Future<Database> get database async {
     if (_database != null) return _database!;
     _database = await _initDatabase();
+    if (!_initialized) {
+      await _insertInitialData();
+      _initialized = true;
+    }
     return _database!;
   }
 
@@ -32,6 +38,17 @@ class QuizRepository {
         difficulty INTEGER
       )
     ''');
+  }
+
+  Future<void> _insertInitialData() async {
+    final db = await database;
+    for (var question in testQuestions) {
+      await db.insert(
+        'questions',
+        question.toMap(),
+        conflictAlgorithm: ConflictAlgorithm.replace,
+      );
+    }
   }
 
   Future<List<QuestionModel>> getQuestions({String? category, int? difficulty}) async {
