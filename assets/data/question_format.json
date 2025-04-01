@@ -1,0 +1,17 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qual é a capital do Brasil?",
+      "options": [
+        "São Paulo",
+        "Rio de Janeiro",
+        "Brasília",
+        "Salvador"
+      ],
+      "correctOptionIndex": 2,
+      "category": "Geografia",
+      "difficulty": 1
+    }
+  ]
+}

@@ -84,4 +84,17 @@ class QuizRepository {
       conflictAlgorithm: ConflictAlgorithm.replace,
     );
   }
+
+  Future<List<QuestionModel>> getQuestionsFromRepository() async {
+    // TODO: Implementar carregamento do banco de dados
+    return [];
+  }
+
+  Future<void> addQuestionsToRepository(List<QuestionModel> questions) async {
+    // TODO: Implementar persistência no banco de dados
+  }
+
+  Future<void> clearQuestionsFromRepository() async {
+    // TODO: Implementar limpeza no banco de dados
+  }
 }
