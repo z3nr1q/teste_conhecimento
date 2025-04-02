@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 class QuestionModel {
   final int id;
   final String question;
@@ -19,7 +21,7 @@ class QuestionModel {
     return {
       'id': id,
       'question': question,
-      'options': options.join('|'),
+      'options': jsonEncode(options), // Armazena as opções como JSON string
       'correctOptionIndex': correctOptionIndex,
       'category': category,
       'difficulty': difficulty,
@@ -28,12 +30,26 @@ class QuestionModel {
 
   factory QuestionModel.fromMap(Map<String, dynamic> map) {
     return QuestionModel(
-      id: map['id'],
-      question: map['question'],
-      options: (map['options'] as String).split('|'),
-      correctOptionIndex: map['correctOptionIndex'],
-      category: map['category'],
-      difficulty: map['difficulty'],
+      id: map['id'] as int,
+      question: map['question'] as String,
+      options: List<String>.from(
+        map['options'] is String 
+          ? jsonDecode(map['options']) 
+          : map['options']
+      ),
+      correctOptionIndex: map['correctOptionIndex'] as int,
+      category: map['category'] as String,
+      difficulty: map['difficulty'] as int,
     );
+  }
+
+  factory QuestionModel.fromJson(String source) => 
+      QuestionModel.fromMap(json.decode(source));
+
+  String toJson() => json.encode(toMap());
+
+  @override
+  String toString() {
+    return 'QuestionModel(id: $id, question: $question, options: $options, correctOptionIndex: $correctOptionIndex, category: $category, difficulty: $difficulty)';
   }
 }

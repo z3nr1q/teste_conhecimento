@@ -6,6 +6,7 @@ import '../../data/repositories/quiz_repository.dart';
 import '../bloc/quiz_bloc.dart';
 import 'quiz_page.dart';
 import 'settings_page.dart';
+import 'import_questions_page.dart';
 
 class MenuPage extends StatelessWidget {
   const MenuPage({super.key});
@@ -13,6 +14,9 @@ class MenuPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Teste de Conhecimento'),
+      ),
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
@@ -53,6 +57,14 @@ class MenuPage extends StatelessWidget {
                         child: const QuizPage(),
                       ),
                     ),
+                  ),
+                ),
+                const SizedBox(height: 16),
+                _MenuButton(
+                  icon: Icons.file_upload,
+                  label: 'Importar Questões',
+                  onTap: () => Navigator.of(context).push(
+                    MaterialPageRoute(builder: (_) => const ImportQuestionsPage()),
                   ),
                 ),
                 const SizedBox(height: 16),

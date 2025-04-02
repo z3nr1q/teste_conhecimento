@@ -1,63 +1,36 @@
 import 'dart:convert';
-import 'dart:io';
 import '../models/question_model.dart';
 import '../repositories/quiz_repository.dart';
 
 class QuestionImportService {
   final QuizRepository repository;
 
-  QuestionImportService({required this.repository});
+  QuestionImportService(this.repository);
 
-  Future<List<QuestionModel>> importFromJson(String filePath) async {
+  Future<int> importQuestionsFromJson(String jsonString) async {
     try {
-      // Lê o arquivo JSON
-      final file = File(filePath);
-      final jsonString = await file.readAsString();
-      final jsonData = json.decode(jsonString);
-
-      // Valida o formato do JSON
-      if (!jsonData.containsKey('questions') || 
-          !(jsonData['questions'] is List)) {
-        throw FormatException('Formato de JSON inválido. Deve conter uma lista "questions".');
-      }
-
+      // Decodifica o JSON
+      final List<dynamic> jsonList = json.decode(jsonString);
+      
       // Converte cada item para QuestionModel
-      final questions = (jsonData['questions'] as List)
-          .map((item) => QuestionModel.fromMap(item))
-          .toList();
+      final questions = jsonList.map((item) {
+        return QuestionModel(
+          id: item['id'],
+          question: item['question'],
+          options: List<String>.from(item['options']),
+          correctOptionIndex: item['correctOptionIndex'],
+          category: item['category'],
+          difficulty: item['difficulty'],
+        );
+      }).toList();
 
-      // Valida cada questão
-      for (var question in questions) {
-        if (question.options.length < 2) {
-          throw FormatException(
-              'Questão ${question.id} deve ter pelo menos 2 opções.');
-        }
-        if (question.correctOptionIndex >= question.options.length) {
-          throw FormatException(
-              'Índice da resposta correta inválido na questão ${question.id}.');
-        }
-      }
-
-      // Salva as questões no repositório
+      // Salva as questões
       await repository.addQuestions(questions);
-
-      return questions;
-    } on FormatException {
-      rethrow;
+      
+      return questions.length;
     } catch (e) {
-      throw Exception('Erro ao importar questões: $e');
-    }
-  }
-
-  Future<String> exportToJson(List<QuestionModel> questions) async {
-    try {
-      final jsonData = {
-        'questions': questions.map((q) => q.toMap()).toList(),
-      };
-
-      return const JsonEncoder.withIndent('  ').convert(jsonData);
-    } catch (e) {
-      throw Exception('Erro ao exportar questões: $e');
+      print('Erro ao importar questões: $e');
+      return 0;
     }
   }
 }

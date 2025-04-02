@@ -1,0 +1,1118 @@
+[
+  {
+    "id": 1,
+    "question": "No que se refere à segurança pública, é correto afirmar que às polícias",
+    "options": [
+      "militares competem as funções de polícia judiciária da União.",
+      "civis competem as funções de polícia judiciária e a apuração de infrações penais comuns e militares.",
+      "militares compete o patrulhamento das rodovias federais.",
+      "militares competem o policiamento ostensivo e a preservação da ordem pública.",
+      "penais compete a manutenção da segurança pública no entorno dos estabelecimentos prisionais."
+    ],
+    "correctOptionIndex": 3,
+    "category": "Direito Constitucional",
+    "difficulty": 1
+  },
+  {
+    "id": 2,
+    "question": "Com base no entendimento jurisprudencial do Supremo Tribunal Federal (STF) e na Constituição Federal de 1988 (CF), assinale a opção correta acerca dos militares dos estados.",
+    "options": [
+      "Será submetido ao julgamento de indignidade do oficialato o oficial condenado na justiça comum ou militar à pena privativa de liberdade superior a um ano.",
+      "Cabe habeas corpus para questionar os aspectos formais da punição disciplinar militar.",
+      "Será reformado o militar em atividade que tomar posse em cargo ou emprego público civil permanente.",
+      "Não pode ser promovido o militar da ativa que tomar posse no cargo de secretário estadual de segurança pública enquanto permanecer nesse cargo.",
+      "Para ser elegível, o militar alistável que contar mais de dez anos de serviço deverá afastar-se da atividade."
+    ],
+    "correctOptionIndex": 4,
+    "category": "Direito Constitucional",
+    "difficulty": 1
+  },
+  {
+    "id": 3,
+    "question": "Acerca dos direitos e das garantias fundamentais previstos na CF, assinale a opção correta.",
+    "options": [
+      "Lei que tipifica um crime pode ser aplicada para uma conduta praticada anteriormente à sua vigência.",
+      "A prática de racismo constitui crime inafiançável e imprescritível, sujeito à pena de detenção, nos termos da legislação penal.",
+      "Excepcionalmente, é possível a tipificação de crimes por meio de medida provisória.",
+      "São inafiançáveis e insuscetíveis de graça ou anistia a prática de tortura, o tráfico ilícito de entorpecentes e de drogas afins, o terrorismo e os crimes definidos como hediondos.",
+      "A pena de multa pode ser executada contra os sucessores do condenado, até o limite do valor do patrimônio transferido."
+    ],
+    "correctOptionIndex": 3,
+    "category": "Direito Constitucional",
+    "difficulty": 1
+  },
+  {
+    "id": 4,
+    "question": "No que diz respeito aos direitos e às garantias fundamentais relacionados à prisão, assinale a opção correta.",
+    "options": [
+      "O preso em flagrante não pode ser submetido à identificação criminal.",
+      "A prisão de qualquer pessoa e o local onde se encontre serão comunicados imediatamente ao juiz competente ou à família do preso.",
+      "A prisão ilegal será imediatamente revogada pela autoridade judiciária.",
+      "É lícita a prisão civil do depositário infiel apenas quando se tratar de depósito voluntário.",
+      "O preso tem direito à identificação dos responsáveis por sua prisão."
+    ],
+    "correctOptionIndex": 2,
+    "category": "Direito Constitucional",
+    "difficulty": 1
+  },
+  {
+    "id": 5,
+    "question": "A respeito dos direitos políticos, assinale a opção correta.",
+    "options": [
+      "O voto é facultativo para os maiores de 65 anos de idade.",
+      "A incapacidade civil absoluta é causa de suspensão dos direitos políticos.",
+      "O domicílio eleitoral na circunscrição em que o eleitor se candidata é uma condição facultativa de elegibilidade.",
+      "Os estrangeiros, no Brasil, têm capacidade eleitoral ativa.",
+      "A condenação criminal à pena de multa é causa de perda dos direitos políticos."
+    ],
+    "correctOptionIndex": 1,
+    "category": "Direito Constitucional",
+    "difficulty": 1
+  },
+  {
+    "id": 6,
+    "question": "Em relação ao estado de defesa e ao estado de sítio, assinale a opção correta.",
+    "options": [
+      "É necessária a autorização do Congresso Nacional para a decretação do estado de defesa, durante o qual é admitida a restrição ao sigilo de correspondência.",
+      "Não é necessária a autorização do Congresso Nacional para a decretação do estado de sítio, durante o qual é admitida a detenção de pessoas em edifício não destinado a acusados ou condenados por crimes comuns.",
+      "Na vigência do estado de sítio, podem ser realizadas busca e apreensão, independentemente de ordem judicial.",
+      "Admite-se o controle, pelo Poder Judiciário, dos motivos pelos quais o presidente da República decreta o estado de defesa e o estado de sítio.",
+      "Durante o estado de defesa, admite-se a suspensão da liberdade de reunião."
+    ],
+    "correctOptionIndex": 2,
+    "category": "Direito Constitucional",
+    "difficulty": 1
+  },
+  {
+    "id": 7,
+    "question": "Conforme previsto na CF, compete ao presidente da República\n\nI iniciar o processo legislativo.\nII vetar projetos de lei.\nIII sancionar leis.\nIV promulgar emendas constitucionais.\nV celebrar tratados internacionais.\n\nEstão certos apenas os itens",
+    "options": [
+      "I, II, III e IV.",
+      "I, II, III e V.",
+      "I, II, IV e V.",
+      "I, III, IV e V.",
+      "II, III, IV e V."
+    ],
+    "correctOptionIndex": 1,
+    "category": "Direito Constitucional",
+    "difficulty": 1
+  },
+  {
+    "id": 8,
+    "question": "De acordo com a Lei n.º 8.429/1992, assinale a opção que indica as cominações aplicáveis aos atos de improbidade administrativa que atentam contra os princípios da administração pública.",
+    "options": [
+      "proibição de contratar com a administração pública e pagamento de multa",
+      "perda do cargo público e pagamento de multa",
+      "suspensão dos direitos políticos e proibição de contratar com a administração pública",
+      "suspensão dos direitos políticos e pagamento de multa",
+      "suspensão dos direitos políticos e perda do cargo público"
+    ],
+    "correctOptionIndex": 0,
+    "category": "Direito Administrativo",
+    "difficulty": 1
+  },
+  {
+    "id": 9,
+    "question": "Conforme a jurisprudência do Supremo Tribunal Federal (STF), a transferência do controle de subsidiárias e controladas das sociedades de economia mista",
+    "options": [
+      "não é admitida pela Constituição Federal de 1988, porquanto o Estado não pode abrir mão da exploração de atividade econômica que lhe foi outorgada.",
+      "não está condicionada à anuência do Poder Legislativo, desde que garantida a competitividade entre os potenciais interessados e observados os princípios da administração pública constantes da Constituição Federal de 1988, mas exige a realização de processo licitatório.",
+      "não está condicionada à anuência do Poder Legislativo nem exige a realização de processo licitatório, desde que garantida a competitividade entre os potenciais interessados e observados os princípios da administração pública constantes da Constituição Federal de 1988.",
+      "está condicionada à anuência do Poder Legislativo, mas não exige a realização de processo licitatório, desde que garantida a competitividade entre os potenciais interessados e observados os princípios da administração pública constantes da Constituição Federal de 1988.",
+      "está condicionada à anuência do Poder Legislativo bem como exige a realização de processo licitatório."
+    ],
+    "correctOptionIndex": 2,
+    "category": "Direito Administrativo",
+    "difficulty": 1
+  },
+  {
+    "id": 10,
+    "question": "Considerando-se os atributos dos atos administrativos, é correto afirmar que, segundo a doutrina, na aplicação de multas administrativas, incide(m) o(s) atributo(s) de\n\nI presunção de legitimidade.\nII imperatividade.\nIII autoexecutoriedade.\n\nAssinale a opção correta.",
+    "options": [
+      "Apenas o item I está certo.",
+      "Apenas o item III está certo.",
+      "Apenas os itens I e II estão certos.",
+      "Apenas os itens II e III estão certos.",
+      "Todos os itens estão certos."
+    ],
+    "correctOptionIndex": 2,
+    "category": "Direito Administrativo",
+    "difficulty": 1
+  },
+  {
+    "id": 11,
+    "question": "A respeito do poder de polícia, julgue os itens a seguir de acordo com a jurisprudência do STF.\n\nI Admite-se a cobrança de taxa como remuneração pelo poder de polícia, independentemente de ele ser efetivo ou potencial.\nII Entre as fases que o poder de polícia comporta consentimento, fiscalização e sanção, a primeira não pode ser delegada, em nenhuma hipótese, a pessoa jurídica de direito privado.\nIII A polícia judiciária, da qual é exemplo a polícia militar, ao contrário da polícia administrativa, não exerce função administrativa, porquanto sua atuação é limitada à função jurisdicional penal.\n\nAssinale a opção correta.",
+    "options": [
+      "Nenhum item está certo.",
+      "Apenas o item I está certo.",
+      "Apenas o item II está certo.",
+      "Apenas os itens I e III estão certos.",
+      "Apenas os itens II e III estão certos."
+    ],
+    "correctOptionIndex": 2,
+    "category": "Direito Administrativo",
+    "difficulty": 1
+  },
+  {
+    "id": 12,
+    "question": "Julgue os itens seguintes acerca de licitações, considerando as disposições da Lei n.º 14.133/2021.\n\nI A legislação de licitações não se aplica à concessão e à permissão do uso de bens públicos.\nII Entre os objetivos do processo licitatório inclui-se o incentivo à inovação e ao desenvolvimento nacional sustentável.\nIII O pregão é a modalidade de licitação obrigatória para a aquisição de bens e serviços comuns.\n\nAssinale a opção correta.",
+    "options": [
+      "Apenas o item I está certo.",
+      "Apenas o item II está certo.",
+      "Apenas os itens I e III estão certos.",
+      "Apenas os itens II e III estão certos.",
+      "Todos os itens estão certos."
+    ],
+    "correctOptionIndex": 1,
+    "category": "Direito Administrativo",
+    "difficulty": 1
+  },
+  {
+    "id": 13,
+    "question": "São pessoas jurídicas de direito público criadas por meio de lei, visando ao desempenho de funções próprias e típicas do Estado, a exemplo do Banco Central do Brasil, as",
+    "options": [
+      "sociedades de economia mista.",
+      "permissionárias de serviço público.",
+      "autarquias.",
+      "empresas públicas.",
+      "consórcios públicos."
+    ],
+    "correctOptionIndex": 2,
+    "category": "Direito Administrativo",
+    "difficulty": 1
+  },
+  {
+    "id": 14,
+    "question": "Consoante a Constituição Federal de 1988 e a jurisprudência do STF, a responsabilidade civil do Estado é",
+    "options": [
+      "objetiva e baseia-se no risco administrativo, admitindo excludentes de responsabilidade, razão pela qual o cometimento de crime por presidiário foragido do sistema prisional não necessariamente conduzirá à responsabilização extracontratual do poder público.",
+      "objetiva e baseia-se na culpa do serviço, não admitindo excludentes de responsabilidade, razão pela qual o cometimento de crime por presidiário foragido do sistema prisional conduzirá à responsabilização extracontratual do poder público.",
+      "subjetiva e baseia-se na culpa do serviço, admitindo excludentes de responsabilidade, razão pela qual ordem.",
+      "objetiva e baseia-se na culpa do serviço, admitindo excludentes de responsabilidade, razão pela qual o cometimento de crime por presidiário foragido do sistema prisional não necessariamente conduzirá à responsabilização extracontratual do poder público.",
+      "objetiva e baseia-se no risco administrativo, não admitindo excludentes de responsabilidade, razão pela qual o cometimento de crime por presidiário foragido do sistema prisional conduzirá à responsabilização extracontratual do poder público."
+    ],
+    "correctOptionIndex": 0,
+    "category": "Direito Administrativo",
+    "difficulty": 1
+  },
+  {
+    "id": 15,
+    "question": "Com base no disposto no Código Penal (CP) e no entendimento jurisprudencial do Superior Tribunal de Justiça (STJ), assinale a opção correta a respeito de medidas de segurança.",
+    "options": [
+      "Ainda que extinta a punibilidade do agente, pode ser imposta medida de segurança ou subsistir a que tenha sido imposta.",
+      "O CP, no tocante à imputabilidade penal, adota como regra o critério biológico; logo, a doença mental, por si só, afasta a imputabilidade do agente, sendo aplicada a medida de segurança.",
+      "O instituto da prescrição não é aplicável à medida de segurança, por esta decorrer de absolvição imprópria.",
+      "É possível a execução provisória da medida de segurança.",
+      "Em se tratando de medida de segurança aplicada para substituir a pena corporal inicialmente imposta, extrapolado o prazo de cumprimento previsto para a pena privativa de liberdade, deve cessar a intervenção do Estado na esfera penal, independentemente da cessação da periculosidade do paciente."
+    ],
+    "correctOptionIndex": 4,
+    "category": "Direito Penal Comum",
+    "difficulty": 1
+  },
+  {
+    "id": 16,
+    "question": "Em relação às espécies, à aplicação, à cominação e à execução das penas, assinale a opção correta.",
+    "options": [
+      "Tratando-se de crime sujeito à pena de detenção, o regime inicial de cumprimento de pena deve ser o fechado.",
+      "O tempo total de cumprimento das penas privativas de liberdade não pode ser superior a 40 anos, ainda que sobrevenha condenação por fato posterior ao início do cumprimento da pena, não devendo ser desprezado o período de pena já cumprido.",
+      "Nos crimes culposos, qualquer que seja a quantidade de pena aplicada, será possível a substituição da pena privativa de liberdade por pena restritiva de direitos.",
+      "A pena de multa consiste no pagamento em dinheiro à vítima ou aos seus dependentes, e o valor pago será deduzido do montante de eventual condenação em ação de reparação civil.",
+      "A execução da pena restritiva de direitos prescinde do trânsito em julgado da condenação."
+    ],
+    "correctOptionIndex": 1,
+    "category": "Direito Penal Comum",
+    "difficulty": 1
+  },
+  {
+    "id": 17,
+    "question": "Considerando o entendimento dos tribunais superiores, assinale a opção correta a respeito de punibilidade, causas de extinção da pena, livramento condicional, execução das penas em espécie e incidentes de execução.",
+    "options": [
+      "A pena unificada para atender ao limite máximo de cumprimento previsto na lei deve ser considerada para a concessão de outros benefícios, como o livramento condicional ou a progressão de regime.",
+      "De acordo com o princípio da continuidade normativo-típica, a mera revogação da norma incriminadora configura abolitio criminis, cessando, em virtude desta, a execução e os efeitos penais da condenação.",
+      "Na hipótese de condenação concomitante à pena privativa de liberdade e multa, o inadimplemento da sanção pecuniária pelo condenado que comprovar a impossibilidade de fazê-lo não obsta o reconhecimento da extinção da punibilidade.",
+      "A ausência de suspensão ou revogação do livramento condicional antes do término do período de prova não enseja a extinção da punibilidade pelo integral cumprimento da pena.",
+      "Para fins de livramento condicional, o requisito subjetivo consistente no bom comportamento durante a execução da pena limita-se ao não cometimento de falta grave nos últimos 12 meses."
+    ],
+    "correctOptionIndex": 3,
+    "category": "Direito Penal Comum",
+    "difficulty": 1
+  },
+  {
+    "id": 18,
+    "question": "Com base no disposto na Lei Antidrogas (Lei n.º 11.343/2006), na Lei Maria da Penha (Lei n.º 11.340/2006), na Lei do Crime Organizado (Lei n.º 12.850/2013) e na Lei de Crimes Hediondos (Lei n.º 8.072/1990), bem como no entendimento jurisprudencial do STJ, assinale a opção correta.",
+    "options": [
+      "É permitida a concessão de indulto ao crime de associação para o tráfico, por este não ser considerado crime hediondo ou a ele equiparado.",
+      "É considerado hediondo o delito de lesão corporal gravíssima cometido contra cônjuge de integrante da Força Nacional de Segurança Pública em razão dessa condição.",
+      "Consoante exegese da Lei do Crime Organizado, é possível celebrar acordo de colaboração premiada com a vítima, pois o referido acordo é meio de obtenção de prova.",
+      "É possível a aplicação do redutor de pena do tráfico privilegiado, ainda que haja condenação pela prática do crime de associação para o tráfico de drogas.",
+      "Cessada a relação amorosa entre casal de namorados, não deve ser aplicada a Lei Maria da Penha a eventual delito cometido pelo ex-namorado contra a ex-namorada."
+    ],
+    "correctOptionIndex": 4,
+    "category": "Direito Penal Comum",
+    "difficulty": 1
+  },
+  {
+    "id": 19,
+    "question": "Acerca do arrependimento posterior, das descriminantes putativas, da coação irresistível e da obediência hierárquica, bem como do erro sobre os elementos do tipo e sobre a pessoa, assinale a opção correta.",
+    "options": [
+      "Nos crimes cometidos sem violência ou grave ameaça à pessoa, é possível a aplicação do instituto do arrependimento posterior caso o dano seja reparado integralmente, por ato voluntário do agente, até a prolação da sentença.",
+      "O agente que agir sob coação irresistível, seja moral ou física, praticará uma conduta típica e antijurídica, mas não culpável, ficando isento de pena o referido agente.",
+      "O erro sobre elemento constitutivo do tipo legal de crime exclui o dolo e a culpa.",
+      "Ocorre a aberratio ictus quando o acidente ou erro no emprego dos meios executórios faz com que se atinja um bem jurídico diferente do pretendido.",
+      "As descriminantes putativas configuram, à luz da teoria extremada da culpabilidade, erro de proibição."
+    ],
+    "correctOptionIndex": 0,
+    "category": "Direito Penal Comum",
+    "difficulty": 1
+  },
+  {
+    "id": 20,
+    "question": "Com base no CP, na Lei de Crimes Hediondos e na Lei n.º 9.503/1997, que trata dos crimes de trânsito, assinale a opção correta a respeito dos diferentes tipos penais.",
+    "options": [
+      "Considere-se que um agente, conduzindo veículo automotor sob a influência de álcool ou de qualquer outra substância psicoativa que determine dependência, atropele um pedestre que venha a falecer em decorrência do atropelamento. Nessa situação, caso o agente seja condenado por homicídio culposo, a pena privativa de liberdade a ele aplicada poderá ser substituída por pena restritiva de direitos.",
+      "Nos crimes contra a pessoa, considera-se qualificado o homicídio praticado com o emprego de arma de fogo de uso permitido.",
+      "Nos crimes contra o patrimônio, há a caracterização de roubo simples se a violência ou grave ameaça é exercida com o emprego de arma branca.",
+      "Entre os crimes contra a dignidade sexual, o crime de importunação sexual não é considerado crime hediondo.",
+      "Conforme previsão legal, é possível a substituição da pena privativa de liberdade por pena restritiva de direitos na modalidade de prestação pecuniária ao condenado pela prática de lesão corporal culposa na direção de veículo automotor."
+    ],
+    "correctOptionIndex": 3,
+    "category": "Direito Penal Comum",
+    "difficulty": 1
+  },
+  {
+    "id": 21,
+    "question": "A luz do disposto no CP e na Lei Antidrogas, assinale a opção correta no que diz respeito aos efeitos da condenação, à classificação dos crimes, à aplicação da pena e à reabilitação.",
+    "options": [
+      "A perda de cargo, função pública ou mandato eletivo como efeito da aplicação de pena privativa de liberdade por tempo superior a 4 anos prescinde de declaração na sentença.",
+      "A reabilitação alcança quaisquer penas aplicadas em sentença definitiva, assegura ao condenado o sigilo dos registros sobre o seu processo e atinge, inclusive, os efeitos da condenação, de modo que é permitida ao reabilitado a sua reintegração ao cargo efetivo anteriormente perdido em decorrência da condenação transitada em julgado.",
+      "No que se refere ao crime de tráfico ilícito de entorpecentes, a incidência da atenuante da confissão espontânea não exige o reconhecimento da traficância pelo acusado, bastando a mera admissão da posse ou propriedade da substância entorpecente para uso próprio.",
+      "É possível a fixação de regime inicial fechado àquele que for condenado a uma pena inferior a 4 anos pela prática de crime sem violência ou grave ameaça, em decorrência do reconhecimento das circunstâncias judiciais desfavoráveis e da sua reincidência.",
+      "O crime permanente caracteriza-se, quanto ao seu momento consumativo, como o delito cuja consumação ocorre de forma instantânea, embora seus efeitos sejam duradouros."
+    ],
+    "correctOptionIndex": 0,
+    "category": "Direito Penal Comum",
+    "difficulty": 1
+  },
+  {
+    "id": 22,
+    "question": "A respeito das nulidades processuais, assinale a opção correta.",
+    "options": [
+      "As nulidades relativas verificadas após a decisão de primeira instância deverão ser arguidas até a conclusão do julgamento pelo tribunal.",
+      "A parte poderá arguir nulidade a que haja dado causa.",
+      "A incompetência do juízo implica a anulação somente dos atos decisórios, devendo o processo, quando for declarada a nulidade, ser remetido ao juiz competente.",
+      "A falta do recurso de ofício, nos casos em que a lei o tenha estabelecido, não acarreta nulidade processual.",
+      "A nulidade por ilegitimidade do representante da parte deverá ser alegada até o final da audiência de instrução, sob pena de preclusão."
+    ],
+    "correctOptionIndex": 2,
+    "category": "Direito Processual Penal Comum",
+    "difficulty": 1
+  },
+  {
+    "id": 23,
+    "question": "Com base na Lei dos Juizados Especiais Criminais Lei n.º 9.099/1995, assinale a opção que corresponde ao recurso cabível contra a decisão que rejeita a denúncia ou a queixa.",
+    "options": [
+      "apelação",
+      "recurso em sentido estrito",
+      "embargos de declaração",
+      "mandado de segurança",
+      "agravo"
+    ],
+    "correctOptionIndex": 1,
+    "category": "Direito Processual Penal Comum",
+    "difficulty": 1
+  },
+  {
+    "id": 24,
+    "question": "De acordo com a Lei n.º 9.296/1996, que dispõe acerca da interceptação telefônica no Brasil, assinale a opção correta.",
+    "options": [
+      "A autoridade policial, durante a investigação criminal ou na instrução processual, poderá requerer ao juiz o deferimento da interceptação de comunicações telefônicas.",
+      "Admite-se a interceptação de comunicações telefônicas se o fato investigado constituir infração penal punida, no máximo, com pena de detenção.",
+      "O pedido de interceptação telefônica não poderá ser formulado verbalmente.",
+      "Admite-se a interceptação telefônica mesmo que a prova possa ser obtida por outros meios disponíveis.",
+      "A interceptação de comunicações telefônicas não será admitida quando não houver indícios razoáveis de autoria ou participação em infração penal."
+    ],
+    "correctOptionIndex": 2,
+    "category": "Direito Processual Penal Comum",
+    "difficulty": 1
+  },
+  {
+    "id": 25,
+    "question": "Considerando a Lei n.º 7.960/1989 e a jurisprudência dos tribunais superiores no que se refere à prisão temporária, assinale a opção correta.",
+    "options": [
+      "A autoridade judiciária deverá decretar, de ofício, a prisão temporária de suspeito do cometimento de crimes considerados hediondos.",
+      "Não é necessário constar do mandado de prisão temporária o dia em que o preso deverá ser libertado.",
+      "A prisão temporária somente poderá ser executada depois da expedição de mandado judicial.",
+      "O despacho que decretar a prisão temporária deverá ser fundamentado e prolatado dentro do prazo de 24 horas, contadas a partir da expedição da representação ou do requerimento.",
+      "O dia do cumprimento do mandado de prisão não será incluído no cômputo do prazo de prisão temporária."
+    ],
+    "correctOptionIndex": 2,
+    "category": "Direito Processual Penal Comum",
+    "difficulty": 1
+  },
+  {
+    "id": 26,
+    "question": "Assinale a opção correta conforme as disposições do Código de Processo Penal (CPP) acerca do inquérito policial.",
+    "options": [
+      "O Ministério Público não poderá requerer a devolução do inquérito à autoridade policial, senão para novas diligências, imprescindíveis ao oferecimento da denúncia.",
+      "Quando o fato for de difícil elucidação e o indiciado estiver solto, a autoridade poderá requerer ao juiz a devolução dos autos, para ulteriores diligências, que serão realizadas no prazo marcado pela autoridade policial.",
+      "É inadmissível recurso do despacho que indeferir o requerimento de abertura de inquérito policial.",
+      "Os instrumentos do crime, bem como os objetos que interessarem à prova, não acompanharão os autos do inquérito.",
+      "Admite-se excepcionalmente o arquivamento do inquérito pela própria autoridade policial."
+    ],
+    "correctOptionIndex": 0,
+    "category": "Direito Processual Penal Comum",
+    "difficulty": 1
+  },
+  {
+    "id": 27,
+    "question": "Com relação ao acordo de não persecução penal (ANPP), assinale a opção correta.",
+    "options": [
+      "Admite-se ANPP nos casos de crimes praticados no âmbito de violência doméstica ou familiar.",
+      "É dispensável a intimação da vítima quando da homologação do ANPP.",
+      "Para aferição da pena mínima cominada ao delito a que se referir o ANPP, serão consideradas as causas de aumento e de diminuição aplicáveis ao caso concreto.",
+      "Não se admite a recusa de homologação do ANPP pelo juiz.",
+      "O descumprimento do ANPP pelo investigado não poderá ser utilizado pelo Ministério Público como justificativa para não oferecimento de suspensão condicional do processo."
+    ],
+    "correctOptionIndex": 2,
+    "category": "Direito Processual Penal Comum",
+    "difficulty": 1
+  },
+  {
+    "id": 28,
+    "question": "Nos termos do CPP, quando não houver prazo estabelecido, o prazo legal para que os juízes singulares possam proferir seus despachos de expedientes será de",
+    "options": [
+      "dez dias.",
+      "cinco dias.",
+      "um dia.",
+      "quinze dias.",
+      "quarenta e oito horas."
+    ],
+    "correctOptionIndex": 1,
+    "category": "Direito Processual Penal Comum",
+    "difficulty": 1
+  },
+  {
+    "id": 29,
+    "question": "Segundo o que dispõe o Código Penal Militar (CPM), são previstos(as) pena principal como e pena acessória, respectivamente,",
+    "options": [
+      "a reclusão e a reforma.",
+      "a prisão e a perda do posto e da patente.",
+      "a exclusão das Forças Armadas e o impedimento.",
+      "a indignidade para o oficialato e a incompatibilidade com o oficialato.",
+      "a suspensão dos direitos políticos e a detenção."
+    ],
+    "correctOptionIndex": 1,
+    "category": "Direito Penal Militar",
+    "difficulty": 1
+  },
+  {
+    "id": 30,
+    "question": "No que diz respeito aos crimes militares, comete crime militar e será julgado pela justiça militar estadual o",
+    "options": [
+      "policial militar reformado que desobedecer a ordem do comandante do 1.º Batalhão da Polícia Militar de Santa Catarina.",
+      "civil que praticar lesão corporal contra policial militar de serviço.",
+      "policial militar da ativa que, ainda que esteja de férias, publicar crítica indevida a documento oficial em suas redes sociais.",
+      "policial militar da reserva remunerada que desacatar superior, ofendendo-lhe a dignidade ou o decoro.",
+      "militar das Forças Armadas que praticar lesão corporal contra policial militar de serviço."
+    ],
+    "correctOptionIndex": 1,
+    "category": "Direito Penal Militar",
+    "difficulty": 1
+  },
+  {
+    "id": 31,
+    "question": "Considerando o que dispõe o Código Penal Militar (CPM) acerca de crimes militares em tempo de paz, assinale a opção correta.",
+    "options": [
+      "Apenas o item I está certo.",
+      "Apenas o item II está certo.",
+      "Apenas o item III está certo.",
+      "Apenas os itens I e II estão certos.",
+      "Apenas os itens II e III estão certos."
+    ],
+    "correctOptionIndex": 0,
+    "category": "Direito Penal Militar",
+    "difficulty": 1
+  },
+  {
+    "id": 32,
+    "question": "Acerca do que dispõe o Código Penal Militar (CPM) relativamente à imputabilidade penal, assinale a opção correta.",
+    "options": [
+      "A pena poderá ser reduzida de um a dois terços se o agente, por embriaguez incompleta proveniente de caso fortuito ou força maior, não possuía, ao tempo da ação ou da omissão, a plena capacidade de entender o caráter criminoso do fato ou de determinar-se de acordo com esse entendimento.",
+      "Será imputada a responsabilidade pela conduta ao agente que, no momento da ação ou omissão, em virtude de doença mental, não possuía a capacidade de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento.",
+      "Não será imputada a responsabilidade pela conduta ao agente que, no momento da ação ou omissão, apesar de doença mental, possuía a capacidade de determinar-se de acordo com o entendimento do caráter ilícito do fato.",
+      "Não será imputada a responsabilidade pelo crime ao agente se a doença mental não suprimiu e não diminuiu a capacidade de entendimento da ilicitude do fato ou a de autodeterminação.",
+      "Não será imputada a responsabilidade pelo crime ao agente que, no momento da conduta, estava em estado de embriaguez incompleta proveniente de caso fortuito ou força maior."
+    ],
+    "correctOptionIndex": 0,
+    "category": "Direito Penal Militar",
+    "difficulty": 1
+  },
+  {
+    "id": 33,
+    "question": "Considerando o que dispõe o Código Penal Militar (CPM) acerca de suspensão condicional da pena, assinale a opção correta.",
+    "options": [
+      "A execução da pena pode ser suspensa pelo prazo máximo de oito anos desde que os antecedentes, a personalidade e a conduta posterior do agente autorizem a presunção de que ele não voltará a delinquir.",
+      "A suspensão condicional da pena pode ser estendida às penas de reforma, suspensão do exercício do posto, graduação, função ou à pena acessória.",
+      "A suspensão condicional da pena não pode ser aplicada, por exemplo, ao agente que, em tempo de paz, tenha praticado crime contra a segurança nacional ou que tenha praticado violência contra superior.",
+      "Não é necessário que, na sentença, o juiz especifique as condições a que fica subordinada a suspensão.",
+      "Não haverá a revogação da suspensão caso o condenado descumpra qualquer das condições impostas na sentença."
+    ],
+    "correctOptionIndex": 2,
+    "category": "Direito Penal Militar",
+    "difficulty": 1
+  },
+  {
+    "id": 34,
+    "question": "Capitão Martins, integrante da PMSC, foi condenado a uma pena superior a dois anos pela prática de crime militar. Após o cumprimento parcial da pena, capitão Martins solicitou livramento condicional da pena. Considerando a situação hipotética precedente e o que dispõe o Código Penal Militar (CPM) acerca do assunto, assinale a opção correta.",
+    "options": [
+      "Cumpridas as demais condições, será concedido o livramento condicional ao capitão Martins caso ele cumpra metade da pena, se reincidente, ou dois terços da pena, se primário.",
+      "Entre outras condições, é necessário o cumprimento de metade da pena para que se conceda o livramento condicional ao agente que, em tempo de paz, tenha praticado crime contra a segurança externa do país, crime de motim ou que tenha praticado violência contra militar de serviço.",
+      "O livramento condicional será concedido mediante parecer do Conselho Penitenciário, ouvido o diretor do estabelecimento em que está ou tenha estado o liberando, sendo desnecessário ouvir o representante do Ministério Público da Justiça Militar.",
+      "O livramento condicional que for revogado poderá ser novamente concedido.",
+      "Terminado o prazo de cumprimento do livramento condicional sem que haja a sua revogação, a pena privativa de liberdade será considerada extinta."
+    ],
+    "correctOptionIndex": 4,
+    "category": "Direito Penal Militar",
+    "difficulty": 1
+  },
+  {
+    "id": 35,
+    "question": "Configura crime militar em tempo de paz praticado contra a administração militar a conduta de\n\nI praticar violência contra superior.\nII desacatar superior, ofendendo-lhe a dignidade ou o decoro, ou procurando deprimir-lhe a autoridade.\nIII desobedecer a ordem legal de autoridade militar.\n\nAssinale a opção correta.",
+    "options": [
+      "Apenas o item I está certo.",
+      "Apenas o item II está certo.",
+      "Apenas os itens I e III estão certos.",
+      "Apenas os itens II e III estão certos.",
+      "Todos os itens estão certos."
+    ],
+    "correctOptionIndex": 4,
+    "category": "Direito Penal Militar",
+    "difficulty": 1
+  },
+  {
+    "id": 36,
+    "question": "No que concerne à polícia judiciária militar e ao inquérito policial militar (IPM), assinale a opção correta.",
+    "options": [
+      "Convencida da inexistência de crime, a autoridade policial militar ordenará o arquivamento do IPM, desde que ausentes quaisquer diligências sujeitas à autorização ou à comunicação judicial no caderno de investigação.",
+      "É vedada a participação de advogado nas diligências probatórias da fase policial, salvo nos IPM que versem sobre crimes dolosos contra a vida.",
+      "A instauração de IPM é feita por meio de portaria, exigindo-se da autoridade responsável o grau de bacharel em direito.",
+      "A abertura de sindicância não poderá ser simultânea à instauração de IPM quando os fatos forem os mesmos.",
+      "A sindicância suficientemente instruída poderá substituir o IPM quando da proposição de denúncia pelo Ministério Público."
+    ],
+    "correctOptionIndex": 3,
+    "category": "Direito Processual Penal Militar",
+    "difficulty": 1
+  },
+  {
+    "id": 37,
+    "question": "No que se refere à aplicação e à interpretação do Código de Processo Penal Militar (CPPM), assinale a opção correta.",
+    "options": [
+      "Havendo divergência entre norma do CPPM e tratado internacional de que o Brasil seja signatário, prevalecerá a primeira, em observância aos princípios da hierarquia e da disciplina militares.",
+      "É permitida interpretação extensiva da norma processual penal militar, ainda que essa interpretação enseje cerceamento à defesa do acusado.",
+      "Admite-se interpretação restritiva quando for manifesta a amplitude demasiada da lei, salvo quando tal interpretação buscar impedir a marcha natural do processo, especialmente em sua fase inicial.",
+      "A lei processual penal comum é complementar à lei especial militar, devendo ambas ser aplicadas simultaneamente, quando coerentes, ou segundo o critério de razoabilidade do julgador, quando omissas.",
+      "Diante de omissão legislativa, o intérprete poderá recorrer à jurisprudência ou aos costumes militares, mas não à analogia."
+    ],
+    "correctOptionIndex": 2,
+    "category": "Direito Processual Penal Militar",
+    "difficulty": 1
+  },
+  {
+    "id": 38,
+    "question": "Acerca da prisão em flagrante delito por crime propriamente militar, assinale a opção correta.",
+    "options": [
+      "Efetuada a prisão em local não sujeito à administração militar, o preso deverá ser encaminhado à autoridade da unidade militar mais próxima, não podendo esse procedimento ser substituído pela lavratura do auto de prisão por autoridade civil.",
+      "Caberá à autoridade militar ou judiciária relaxar a prisão em flagrante se verificar a manifesta inexistência de infração penal militar ou a não participação da pessoa que estiver sendo conduzida.. Não poderá o militar ofendido proceder, de ofício, à prisão em flagrante do infrator.",
+      "No prazo máximo de 24 horas após a prisão, o auto de prisão em flagrante deverá ser remetido à autoridade judiciária competente.",
+      "O juiz não concederá a liberdade provisória de preso em flagrante por crime propriamente militar quando a autoridade militar superior na unidade em que o infrator sirva entender conveniente seu acautelamento."
+    ],
+    "correctOptionIndex": 0,
+    "category": "Direito Processual Penal Militar",
+    "difficulty": 1
+  },
+  {
+    "id": 39,
+    "question": "O foro competente para o julgamento do militar que, em atividade, cometer infração penal militar em local não sabido será o local",
+    "options": [
+      "de seu domicílio.",
+      "da distribuição ao primeiro juízo militar ao qual tenha sido comunicada a infração.",
+      "da unidade em que ele estiver lotado.",
+      "onde supostamente tenha sido cometido o crime, apontado fundamentadamente pela autoridade militar responsável pelo IPM.",
+      "onde tiver sido efetuada e(ou) processada sua prisão ou instaurado o correspondente IPM."
+    ],
+    "correctOptionIndex": 2,
+    "category": "Direito Processual Penal Militar",
+    "difficulty": 1
+  },
+  {
+    "id": 40,
+    "question": "Assinale a opção correta a respeito do mandado de busca no direito processual penal militar.",
+    "options": [
+      "A autoridade militar poderá requisitar outras forças militares para a realização da busca, mas não forças civis.",
+      "Na hipótese de a autoridade que cumpre o mandado de busca domiciliar verificar que o morador da casa está ausente, ela deverá localizá-lo e aguardar sua chegada, se puder ser imediata.",
+      "O mandado de busca poderá ser determinado de ofício pela autoridade policial militar.",
+      "A ordem de prisão no mandado de busca domiciliar é implicita.",
+      "A revista pessoal a ser feita durante o cumprimento de busca domiciliar depende de menção expressa no mandado judicial."
+    ],
+    "correctOptionIndex": 1,
+    "category": "Direito Processual Penal Militar",
+    "difficulty": 1
+  },
+  {
+    "id": 41,
+    "question": "Segundo o disposto no CPPM, o termo \"casa\" compreende",
+    "options": [
+      "habitação coletiva aberta e desocupada.",
+      "qualquer tipo de habitação, inclusive quando usada como local para a prática de infrações penais.",
+      "sala alugada, não aberta ao público, utilizada para exercício profissional.",
+      "armário individual em alojamento militar.",
+      "local utilizado para prática de jogos, boate ou similares."
+    ],
+    "correctOptionIndex": 3,
+    "category": "Direito Processual Penal Militar",
+    "difficulty": 1
+  },
+  {
+    "id": 42,
+    "question": "Em relação à acareação e à prova testemunhal no âmbito do direito processual penal militar, assinale a opção correta.",
+    "options": [
+      "É dispensada de depor a testemunha militar que tenha atuado em operação na qual outro militar tenha praticado infração penal.",
+      "No ato da acareação, a autoridade explicará os pontos de divergência aos acareados, os quais serão reinquiridos para, então, responderem seguidamente e na presença um do outro.",
+      "As testemunhas militares serão ouvidas em juízo uma após a outra, de preferência presentes no mesmo recinto e por ordem de chegada, de modo a evitar repetição e mora da audiência.",
+      "A contradita será levantada após a inquirição da testemunha e ela própria poderá responder, sem que se admita réplica à resposta.",
+      "Admite-se a acareação entre acusado e testemunha apenas em juízo, cabendo à autoridade policial, na fase de inquérito, proceder à simples colheita de depoimentos."
+    ],
+    "correctOptionIndex": 2,
+    "category": "Direito Processual Penal Militar",
+    "difficulty": 1
+  },
+  {
+    "id": 43,
+    "question": "A luz do entendimento do Superior Tribunal de Justiça (STJ), assinale a opção correta acerca dos bens de família.",
+    "options": [
+      "A vaga de garagem com matrícula própria no registro de imóveis constitui bem de família para efeito de penhora.",
+      "O imóvel pertencente a pessoas solteiras, separadas e viúvas não é abrangido pela impenhorabilidade do bem de família.",
+      "A proteção legal de impenhorabilidade alcança apenas o imóvel da família, não se estendendo aos bens móveis que o guarnecem.",
+      "A impenhorabilidade da pequena propriedade rural pode ser renunciada pelo titular.",
+      "O fato de o terreno encontrar-se não edificado ou em construção, por si só, não obsta a sua qualificação como bem de família, visto que a finalidade a este atribuída deve ser analisada caso a caso."
+    ],
+    "correctOptionIndex": 4,
+    "category": "Direito Civil",
+    "difficulty": 1
+  },
+  {
+    "id": 44,
+    "question": "Considerando a jurisprudência do STJ a respeito dos direitos da personalidade, assinale a opção correta.",
+    "options": [
+      "Exige-se prova inequívoca da má-fé da publicação (actual malice) para ensejar indenização por ofensa ao nome ou à imagem de alguém.",
+      "A concessão de dano moral extrapatrimonial em relação a um grupo ou uma coletividade, diferentemente de a um indivíduo isolado, pressupõe a efetiva demonstração da dor, da repulsa ou da indignação.",
+      "A voz humana é protegida pelos direitos da personalidade, seja como direito autônomo, seja como parte integrante do direito à imagem ou do direito à identidade pessoal.",
+      "Em regra, não é possível a continuidade do uso de sobrenome de ex-cônjuge, visto que não configura direito inerente à personalidade, de modo que não se integra à identidade civil da pessoa.",
+      "Não é possível o restabelecimento do nome de solteiro após a dissolução do vínculo conjugal em decorrência de morte."
+    ],
+    "correctOptionIndex": 2,
+    "category": "Direito Civil",
+    "difficulty": 1
+  },
+  {
+    "id": 45,
+    "question": "Com base nas disposições do Código Civil no que concerne aos institutos da tutela e da curatela, assinale a opção correta.",
+    "options": [
+      "Ao tutor é vedado dispor dos bens do menor a título gratuito, exceto para instituições confessionais ou de caridade.",
+      "Prescreve em dois anos a pretensão relativa à tutela, a contar da data da aprovação das contas.",
+      "O juiz deverá condicionar o exercício da tutela à prestação de caução bancária ou à indicação de dois fiadores, a fim de preservar os interesses do menor, caso seu patrimônio seja de valor considerável.",
+      "Durante a tutela ou curatela, a prescrição corre entre tutelados ou curatelados e seus tutores ou curadores.",
+      "Os militares em serviço podem escusar-se da tutela."
+    ],
+    "correctOptionIndex": 4,
+    "category": "Direito Civil",
+    "difficulty": 1
+  },
+  {
+    "id": 46,
+    "question": "No que diz respeito aos defeitos do negócio jurídico, assinale a opção correta com base no que dispõe o Código Civil.",
+    "options": [
+      "O erro prejudica a validade do negócio jurídico, ainda que a pessoa a quem se dirija a manifestação de vontade se ofereça para executá-la conforme a vontade real do manifestante.",
+      "Se ambas as partes procederem com dolo, ambas poderão alegá-lo para anular o negócio jurídico.",
+      "Ocorre a lesão quando alguém, premido da necessidade de salvar-se, ou a pessoa de sua família, de grave dano conhecido pela outra parte, assume obrigação excessivamente onerosa.",
+      "No apreciar a coação, ter-se-ão em conta o sexo, a idade, a condição, a saúde, o temperamento do paciente e todas as demais circunstâncias que possam influir na gravidade dela.",
+      "Na fraude contra credores, os contratos onerosos do devedor insolvente não serão passíveis de anulação, ainda que a insolvência do devedor seja notória."
+    ],
+    "correctOptionIndex": 3,
+    "category": "Direito Civil",
+    "difficulty": 1
+  },
+  {
+    "id": 47,
+    "question": "A respeito da prestação de alimentos, consideradas as disposições do Código Civil e a jurisprudência do STJ, assinale a opção correta.",
+    "options": [
+      "A obrigação de prestar alimentos não se transmite aos herdeiros do devedor.",
+      "Os avós têm responsabilidade principal de prestar alimentos aos netos, ainda que os genitores tenham capacidade econômica de prestá-los.",
+      "É automática a exoneração de alimentos a filhos adultos com plena capacidade civil que não ostentarem incapacidade para o trabalho.",
+      "Diante do princípio da incompensabilidade dos alimentos, não é possível abater verbas relativas ao custeio direto de despesas de natureza alimentar do cálculo da dívida do alimentante, ainda que comprovadamente feitas em prol do beneficiário.",
+      "A regra geral da impenhorabilidade dos vencimentos poderá ser excepcionada, nos termos da lei, quando se voltar para o pagamento de prestação alimentícia, de qualquer origem, independentemente do valor da verba remuneratória recebida."
+    ],
+    "correctOptionIndex": 4,
+    "category": "Direito Civil",
+    "difficulty": 1
+  },
+  {
+    "id": 48,
+    "question": "Acerca dos regimes de bens, assinale a opção correta à luz do disposto no Código Civil.",
+    "options": [
+      "Qualquer que seja o regime de bens, tanto um quanto outro cônjuge pode livremente administrar os bens próprios.",
+      "No regime de separação de bens, em regra, ambos os cônjuges são obrigados a contribuir para as despesas do casal de forma igualitária.",
+      "Qualquer que seja o regime de bens, nenhum dos cônjuges pode, sem autorização do outro, prestar fiança ou aval.",
+      "No regime de comunhão parcial, comunicam-se as obrigações, contraídas na constância da união, provenientes de atos ilícitos que tenham revertido em benefício de apenas um dos cônjuges.",
+      "No regime de participação final nos aquestos, em regra, ambos os cônjuges responderão pelas dívidas contraídas após o casamento, ainda que contraídas por apenas um deles."
+    ],
+    "correctOptionIndex": 0,
+    "category": "Direito Civil",
+    "difficulty": 1
+  },
+  {
+    "id": 49,
+    "question": "De acordo com a Lei Estadual n.º 6.218/1983, que dispõe sobre o Estatuto dos Policiais Militares do Estado de Santa Catarina, a situação em que o policial militar da ativa deixa de ocupar vaga na escala hierárquica de seu quadro ou qualificação, nela permanecendo sem número, é conhecida como",
+    "options": [
+      "agregação.",
+      "transferência.",
+      "disposição.",
+      "reversão.",
+      "promoção."
+    ],
+    "correctOptionIndex": 0,
+    "category": "Legislação Institucional",
+    "difficulty": 1
+  },
+  {
+    "id": 50,
+    "question": "Segundo o Estatuto dos Policiais Militares do Estado de Santa Catarina, o limite máximo aplicável às penas disciplinares de detenção ou prisão é de",
+    "options": [
+      "15 dias.",
+      "30 dias.",
+      "45 dias.",
+      "60 dias.",
+      "90 dias."
+    ],
+    "correctOptionIndex": 1,
+    "category": "Legislação Institucional",
+    "difficulty": 1
+  },
+  {
+    "id": 51,
+    "question": "Considerando o que dispõe o Regulamento Disciplinar da Polícia Militar do Estado de Santa Catarina, assinale a opção em que são apresentadas causas de justificação que podem ser reconhecidas no julgamento das transgressões praticadas pelo policial militar.",
+    "options": [
+      "falta de prática do serviço e bom comportamento",
+      "relevância de serviços prestados e legítima defesa",
+      "legítima defesa e motivo de força maior",
+      "bom comportamento e relevância dos serviços prestados",
+      "motivo de força maior e falta de prática do serviço"
+    ],
+    "correctOptionIndex": 2,
+    "category": "Legislação Institucional",
+    "difficulty": 1
+  },
+  {
+    "id": 52,
+    "question": "Com base no disposto no Decreto-lei n.º 667/1969, que reorganiza as polícias militares e os corpos de bombeiro militares dos estados, dos territórios e do Distrito Federal, assinale a opção em que é indicado o membro da corporação designado, segundo a hierarquia das polícias militares, como praça especial de polícia.",
+    "options": [
+      "1.º tenente",
+      "subtenente",
+      "soldado",
+      "cabo",
+      "aluno da Escola de Formação de Oficiais da Polícia"
+    ],
+    "correctOptionIndex": 4,
+    "category": "Legislação Institucional",
+    "difficulty": 1
+  },
+  {
+    "id": 53,
+    "question": "Assinale a opção em que é indicado, conforme disposto no Decreto-lei n.º 667/1969, o órgão do Estado-Maior do Exército que detém a competência para baixar as normas e diretrizes para a fiscalização da instrução das polícias militares.",
+    "options": [
+      "Comitê Gestor de Normas das Polícias Militares",
+      "Tribunal Pleno das Polícias Militares",
+      "Consultoria Jurídica das Polícias Militares",
+      "Inspetoria-Geral das Polícias Militares",
+      "Assessoria Legislativa das Polícias Militares"
+    ],
+    "correctOptionIndex": 3,
+    "category": "Legislação Institucional",
+    "difficulty": 1
+  },
+  {
+    "id": 54,
+    "question": "Considerando o disposto no Decreto n.º 88.777/1983, que aprova o regulamento para as polícias militares e corpos de bombeiros militares (R-200), julgue os itens seguintes.\n\nI É permitido ao policial militar o exercício de função ou cargo público civil temporário, não eletivo, em órgãos da administração pública indireta.\nII É vedado ao Estado-Maior do Exército, em vista do princípio da separação de poderes, interferir em questões relativas à organização, aumento ou diminuição de efetivos das polícias militares.\nIII O policiamento ostensivo militar de radiopatrulha terrestre, aérea e portuária é exercido direta e exclusivamente pelo Exército, pela Aeronáutica e pela Marinha, respectivamente.\n\nAssinale a opção correta.",
+    "options": [
+      "Apenas o item I está certo.",
+      "Apenas o item II está certo.",
+      "Apenas os itens I e III estão certos.",
+      "Apenas os itens II e III estão certos.",
+      "Todos os itens estão certos."
+    ],
+    "correctOptionIndex": 0,
+    "category": "Legislação Institucional",
+    "difficulty": 1
+  },
+  {
+    "id": 55,
+    "question": "Segundo determina o Decreto n.º 88.777/1983, quando o policial militar estiver a serviço de órgão ou autoridade a que não esteja diretamente subordinado, o policial estará",
+    "options": [
+      "em aprestamento.",
+      "à disposição.",
+      "em aforamento.",
+      "ao encargo.",
+      "em missão."
+    ],
+    "correctOptionIndex": 1,
+    "category": "Legislação Institucional",
+    "difficulty": 1
+  },
+  {
+    "id": 56,
+    "question": "De acordo com o texto 1A9-1.",
+    "options": [
+      "o equacionamento dos problemas carcerários no Brasil exige especialmente o envolvimento das secretarias de segurança de cada estado, que são o único órgão competente para fazê-lo.",
+      "a humanização das condições carcerárias depende de esforços dos gestores estaduais especializados nas diferentes temáticas sociais governamentais.",
+      "as audiências de custódia têm o objetivo de libertar os presos o mais rápido possível, mediante a análise da legalidade e da necessidade da prisão.",
+      "qualquer solução legislativa, administrativa ou judicial que se apresente como uma panaceia é uma boa alternativa para solucionar parte dos problemas do sistema carcerário brasileiro.",
+      "a busca por alternativas penais tão ou mais eficazes que o encarceramento depende simplesmente da articulação entre os órgãos do sistema de justiça criminal."
+    ],
+    "correctOptionIndex": 2,
+    "category": "Língua Portuguesa",
+    "difficulty": 1
+  },
+  {
+    "id": 57,
+    "question": "A respeito do trecho \"Diante dessa complexidade, parece acertado descartar qualquer solução que se apresente como uma panaceia\", no início do segundo parágrafo do texto 1A9-1, é correto afirmar que",
+    "options": [
+      "o vocábulo \"que\" faz referência ao termo \"complexidade\".",
+      "a oração introduzida pelo vocábulo \"que\" explica o termo \"solução\".",
+      "a oração introduzida pelo vocábulo \"que\" restringe o sentido da expressão \"qualquer solução\".",
+      "a oração introduzida pelo vocábulo \"que\" poderia ser substituída por apresentada por uma panaceia, sem prejuízo da correção gramatical e do sentido original do texto.",
+      "o vocábulo \"que\" introduz uma oração que funciona como complemento de \"parece\"."
+    ],
+    "correctOptionIndex": 3,
+    "category": "Língua Portuguesa",
+    "difficulty": 1
+  },
+  {
+    "id": 58,
+    "question": "Em relação à pontuação empregada no texto 1A9-1, julgue os itens a seguir.\n\nI O emprego da vírgula imediatamente após o vocábulo \"Federação\" (último período do primeiro parágrafo) é facultativo.\nII As aspas em 'porta de entrada' (último período do terceiro parágrafo) indicam que essa expressão está empregada em sentido não literal, tal qual se usa na modalidade coloquial da língua portuguesa.\nIII A vírgula subsequente ao segmento 'instituição total' (penúltimo período do último parágrafo) tem a finalidade de introduzir uma oração com sentido explicativo.\nIV A supressão da vírgula empregada imediatamente após o vocábulo \"brasileiros\" (segundo período do último parágrafo) não prejudicaria a correção gramatical do texto, mas alteraria o seu sentido original.",
+    "options": [
+      "I e II.",
+      "I e IV.",
+      "II e III.",
+      "I, III e IV.",
+      "II, III e IV."
+    ],
+    "correctOptionIndex": 2,
+    "category": "Língua Portuguesa",
+    "difficulty": 1
+  },
+  {
+    "id": 59,
+    "question": "No texto 1A9-1, o segmento \"de soluções e estratégias inteligentes\" (último período do segundo parágrafo) exerce a mesma função sintática que",
+    "options": [
+      "\"do Estado\" (final do primeiro parágrafo).",
+      "\"à construção de horizontes mais alentadores\" (final do segundo parágrafo).",
+      "\"das políticas sociais do Estado\" (penúltimo período do último parágrafo).",
+      "\"de estreita articulação\" (primeiro período do quarto parágrafo).",
+      "\"a improvisar arranjos de serviços\" (penúltimo período do último parágrafo)."
+    ],
+    "correctOptionIndex": 0,
+    "category": "Língua Portuguesa",
+    "difficulty": 1
+  },
+  {
+    "id": 60,
+    "question": "No final do penúltimo período do quarto parágrafo do texto 1A9-1, o vocábulo \"presa\" é empregado como",
+    "options": [
+      "substantivo.",
+      "verbo.",
+      "advérbio de modo.",
+      "advérbio de lugar.",
+      "adjetivo."
+    ],
+    "correctOptionIndex": 4,
+    "category": "Língua Portuguesa",
+    "difficulty": 1
+  },
+  {
+    "id": 61,
+    "question": "No texto 1A9-1, são acentuados graficamente de acordo com a mesma regra de acentuação gráfica os vocábulos\n\nI \"carcerária\" e \"estratégias\".\nII \"Além\" e \"Já\".\nIII \"política\" e \"jurídicos\".\nIV \"é\" e \"país\".\n\nEstão certos apenas os itens",
+    "options": [
+      "I e III.",
+      "II e III.",
+      "II e IV.",
+      "I, II e IV.",
+      "I, III e IV."
+    ],
+    "correctOptionIndex": 4,
+    "category": "Língua Portuguesa",
+    "difficulty": 1
+  },
+  {
+    "id": 62,
+    "question": "A correção gramatical e os sentidos do texto 1A9-1 seriam mantidos caso",
+    "options": [
+      "a forma verbal \"desafia\" (segundo período do primeiro parágrafo) fosse flexionada no plural - desafiam.",
+      "o segmento \"em que\" (primeiro período do terceiro parágrafo) fosse substituído por na qual.",
+      "o termo \"interessantes\" (segundo período do quarto parágrafo) fosse empregado no singular.",
+      "a forma verbal \"exige\" (terceiro período do primeiro parágrafo) fosse flexionada no plural - exigem.",
+      "fosse empregado acento indicativo de crase no \"a\" presente no segmento \"devem nos conduzir a profundas reflexões\" (primeiro período do terceiro parágrafo)."
+    ],
+    "correctOptionIndex": 1,
+    "category": "Língua Portuguesa",
+    "difficulty": 1
+  },
+  {
+    "id": 63,
+    "question": "Assinale a opção em que o termo destacado do texto 1A9-1 exerce a função sintática de adjunto adverbial que exprime circunstância de lugar.",
+    "options": [
+      "\"três Poderes da República\" (terceiro período do primeiro parágrafo)",
+      "\"do sistema penitenciário\" (primeiro período do terceiro parágrafo)",
+      "'porta de entrada' (último período do terceiro parágrafo)",
+      "\"nos presídios brasileiros\" (segundo período do quinto parágrafo)",
+      "\"nas diferentes temáticas sociais governamentais\" (segundo período do quinto parágrafo)"
+    ],
+    "correctOptionIndex": 4,
+    "category": "Língua Portuguesa",
+    "difficulty": 1
+  },
+  {
+    "id": 64,
+    "question": "Uma pesquisa revelou que 45% dos policiais militares de Santa Catarina haviam sido surfistas e, entre esses policiais militares surfistas, 30% deles construíam suas próprias pranchas de surfe. Com base nessa situação hipotética, o percentual de policiais militares de Santa Catarina que tinham sido surfistas e que construíram as suas próprias pranchas de surfe é",
+    "options": [
+      "inferior a 10%.",
+      "superior a 11% e inferior a 16%.",
+      "superior a 17% e inferior a 21%.",
+      "superior a 21% e inferior a 29%.",
+      "superior a 30%."
+    ],
+    "correctOptionIndex": 1,
+    "category": "Raciocínio Lógico",
+    "difficulty": 1
+  },
+  {
+    "id": 65,
+    "question": "CEBRASPE - PM/SC - Edital: 2023\n\nAssinale a opção que corresponde a uma tautologia lógica.",
+    "options": [
+      "<span class=\"math-inline\">P∧Q↔(~P∨Q)</span>",
+      "<span class=\"math-inline\">P∧Q∧R↔(R∧Q)→P</span>",
+      "<span class=\"math-inline\">~P∨Q↔P∨~Q</span>",
+      "<span class=\"math-inline\">P→Q∨R∧S↔(P∨Q)∧R∧S</span>",
+      "<span class=\"math-inline\">~P→~Q↔Q→P</span>"
+    ],
+    "correctOptionIndex": 4,
+    "category": "Raciocínio Lógico",
+    "difficulty": 1
+  },
+  {
+    "id": 66,
+    "question": "<span class=\"math-inline\">((P∧S)→(Q∨R))→((~R∨P)→(~Q∨~S))</span>\n\nO número de linhas da tabela-verdade da proposição lógica precedente é igual a",
+    "options": [
+      "2.",
+      "4.",
+      "8.",
+      "16.",
+      "32."
+    ],
+    "correctOptionIndex": 4,
+    "category": "Raciocínio Lógico",
+    "difficulty": 1
+  },
+  {
+    "id": 67,
+    "question": "\"A variedade de espécies presentes na produção de plantas ornamentais no Vale do Itajaí é consequência de avanços expressivos nas áreas de pesquisa em botânica.\"\n\nO trecho de texto precedente pode ser expresso corretamente pela expressão lógica",
+    "options": [
+      "P.",
+      "<span class=\"math-inline\">P∨Q</span>.",
+      "P ↔ Q.",
+      "<span class=\"math-inline\">P∧Q</span>.",
+      "<span class=\"math-inline\">P→Q</span>"
+    ],
+    "correctOptionIndex": 4,
+    "category": "Raciocínio Lógico",
+    "difficulty": 1
+  },
+  {
+    "id": 68,
+    "question": "U\n\nA figura precedente apresenta os conjuntos A, B, C e U. Considerando que G_Y(X) representa o complementar de",
+    "options": [
+      "~G_U(C∩B)",
+      "~G_U(C∪B)",
+      "<span class=\"math-inline\">G_U(A∩C)</span>",
+      "<span class=\"math-inline\">G_U(A∪C)</span>",
+      "<span class=\"math-inline\">G_U(B∪C)</span>"
+    ],
+    "correctOptionIndex": 2,
+    "category": "Raciocínio Lógico",
+    "difficulty": 1
+  },
+  {
+    "id": 69,
+    "question": "The following table:\n\"local de atuação efetivo masculino efetivo feminino\nCentro 350 140\nCampeche 240 90\nRibeirão da Ilha 200 80\n\n1.100 policiais militares foram destacados para atuar nos três distritos de Florianópolis, conforme a distribuição constante da tabela precedente. Com base nessas informações e considerando que N seja igual ao número de policiais femininos que não foram destacados para atuar em Campeche somado ao número de policiais que foram destacados para atuar em Campeche, tem-se que N corresponde a",
+    "options": [
+      "menos de 33% desse efetivo de policiais militares.",
+      "mais de 33% e menos de 35% desse efetivo de policiais militares.",
+      "mais de 35% e menos de 37% desse efetivo de policiais militares.",
+      "mais de 37% e menos de 39% desse efetivo de policiais militares.",
+      "mais de 39% desse efetivo de policiais militares."
+    ],
+    "correctOptionIndex": 1,
+    "category": "Raciocínio Lógico",
+    "difficulty": 1
+  },
+  {
+    "id": 70,
+    "question": "Uma pesquisa com participantes de uma festa tradicional de Santa Catarina revelou que 320 tinham experimentado a cerveja artesanal X, 200 não experimentaram a cerveja artesanal Y, e 220 tinham experimentado as cervejas artesanais X e Y. Com base na situação hipotética apresentada, o número de participantes dessa pesquisa que não experimentaram nenhuma dessas duas cervejas artesanais",
+    "options": [
+      "é inferior ou igual a 50.",
+      "é superior a 50 e inferior ou igual a 100.",
+      "é superior a 100 e inferior ou igual a 150.",
+      "é superior a 150 e inferior ou igual a 200.",
+      "é superior a 200."
+    ],
+    "correctOptionIndex": 1,
+    "category": "Raciocínio Lógico",
+    "difficulty": 1
+  },
+  {
+    "id": 71,
+    "question": "It can be inferred from text 1A11-I that",
+    "options": [
+      "the cat does not like lasagna.",
+      "the cat is not a pet.",
+      "the cat is not a good hunter.",
+      "the cat is not well-fed.",
+      "the cat is not a stray cat."
+    ],
+    "correctOptionIndex": 4,
+    "category": "Inglês",
+    "difficulty": 1
+  },
+  {
+    "id": 72,
+    "question": "Considering text 1A11-I, choose the correct option.",
+    "options": [
+      "The word \"nature\" (second square) can be correctly replaced by natural.",
+      "The word \"well\" (third square) is functioning as an adjective.",
+      "The word \"that\" (fourth square) refers to \"cat\".",
+      "The word \"that\" (fourth square) refers to \"lasagna\".",
+      "The word \"that\" (fourth square) refers to \"owner\"."
+    ],
+    "correctOptionIndex": 2,
+    "category": "Inglês",
+    "difficulty": 1
+  },
+  {
+    "id": 73,
+    "question": "The main purpose of text 1A11-II is",
+    "options": [
+      "to inform readers about seat belt laws.",
+      "to persuade readers to wear seat belts.",
+      "to explain how seat belts work.",
+      "to describe different types of seat belts.",
+      "to compare seat belt laws in different countries."
+    ],
+    "correctOptionIndex": 1,
+    "category": "Inglês",
+    "difficulty": 1
+  },
+  {
+    "id": 74,
+    "question": "Without changing the meaning of text 1A11-II, the sentence \"The car is zipping down the road\" (seventh sentence of the first paragraph) could be correctly rewritten as",
+    "options": [
+      "The car is unzipping the road.",
+      "The car is moving slowly down the road.",
+      "The car is moving fast down the road.",
+      "The car is moving up the road.",
+      "The car is moving across the road."
+    ],
+    "correctOptionIndex": 2,
+    "category": "Inglês",
+    "difficulty": 1
+  },
+  {
+    "id": 75,
+    "question": "In text 1A11-II, the pronoun \"their\" (second sentence of the second paragraph) refers to",
+    "options": [
+      "\"seat belts\" (first sentence of the second paragraph).",
+      "\"reasons\" (first sentence of the second paragraph).",
+      "\"people\" (first sentence of the second paragraph).",
+      "\"car\" (fourth sentence of the second paragraph).",
+      "\"some people\" (first sentence of the second paragraph)."
+    ],
+    "correctOptionIndex": 4,
+    "category": "Inglês",
+    "difficulty": 1
+  },
+  {
+    "id": 76,
+    "question": "O endereço eletrônico https://www.pm.sc.gov.br/ refere-se",
+    "options": [
+      "a um site que somente pode ser acessado a partir do navegador Chrome ou da página do Google.",
+      "a um site de segurança do governo brasileiro, conforme indicado pela sigla https.",
+      "à intranet da Polícia Militar (PM) de Santa Catarina (SC), conforme indicado por pm.sc.",
+      "a um site que somente pode ser acessado por colaboradores da Polícia Militar (PM) de Santa Catarina (SC).",
+      "a um site do governo do Brasil, como indicado por gov.br."
+    ],
+    "correctOptionIndex": 4,
+    "category": "Informática",
+    "difficulty": 1
+  },
+  {
+    "id": 77,
+    "question": "Na suíte de escritório LibreOffice, o aplicativo",
+    "options": [
+      "Writer permite a realização de cálculos numéricos e o Impress permite a edição de relatórios.",
+      "Calc permite a criação de apresentações e o Draw é utilizado para a produção de planilhas e gráficos.",
+      "Writer permite a edição de textos e o Calc permite a realização de cálculos numéricos.",
+      "Impress permite a criação de relatórios e o Draw é utilizado para a produção de planilhas e gráficos.",
+      "Base permite a criação de apresentações e o Draw é utilizado para a produção de planilhas e gráficos."
+    ],
+    "correctOptionIndex": 2,
+    "category": "Informática",
+    "difficulty": 1
+  },
+  {
+    "id": 78,
+    "question": "Considerando que o sistema operacional Windows 10 esteja instalado em um computador, assinale a opção correta.",
+    "options": [
+      "O nome de um arquivo armazenado no computador pode ser alterado por meio do Explorador de Arquivos, sem comprometer o seu conteúdo.",
+      "O Windows 10 não permite a criação de atalhos para arquivos armazenados em dispositivos removíveis.",
+      "A ferramenta de busca padrão do Windows 10 permite a pesquisa de documentos que estejam armazenados apenas no computador local, mesmo que este esteja conectado à Internet.",
+      "Em qualquer versão do Windows 10, por meio do aplicativo Configurações, é possível alterar a data e o horário do computador; no entanto, não é possível alterar o idioma após a instalação do sistema operacional."
+    ],
+    "correctOptionIndex": 0,
+    "category": "Informática",
+    "difficulty": 1
+  },
+  {
+    "id": 79,
+    "question": "Para o envio de dois arquivos, um de texto e outro com uma planilha, por correio eletrônico, é correto utilizar o aplicativo",
+    "options": [
+      "Edge, clicar a opção e-mail, encaminhar inicialmente o arquivo de texto e, em seguida, enviar o arquivo da planilha.",
+      "Outlook, anexar os dois arquivos em uma única mensagem e enviá-la.",
+      "Chrome, criptografando-se os arquivos antes de enviar.",
+      "Firefox, compactando-se os arquivos antes de enviar."
+    ],
+    "correctOptionIndex": 1,
+    "category": "Informática",
+    "difficulty": 1
+  },
+  {
+    "id": 80,
+    "question": "Assinale a opção em que é indicado o malware cujo objetivo é monitorar as atividades dos sistemas computacionais a partir da coleta de informações pessoais e confidenciais dos usuários, como senhas, histórico de navegação e e-mails, sem o conhecimento do usuário.",
+    "options": [
+      "trojan",
+      "worm",
+      "adware",
+      "spyware"
+    ],
+    "correctOptionIndex": 4,
+    "category": "Informática",
+    "difficulty": 1
+  }
+]
