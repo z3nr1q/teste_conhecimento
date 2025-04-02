@@ -2,11 +2,11 @@ import 'dart:convert';
 
 class QuestionModel {
   final int id;
-  final String question;
-  final List<String> options;
-  final int? correctOptionIndex; // Pode ser nulo para questões anuladas
-  final String category;
-  final int difficulty;
+  final String questao;
+  final List<String> opcoes;
+  final int? indiceOpcaoCorreta; // Pode ser nulo para questões anuladas
+  final String assunto;
+  final int dificuldade;
   
   // Campos opcionais
   final String? banca;
@@ -14,15 +14,15 @@ class QuestionModel {
   final String? edital;
   final String? nivel;
 
-  bool get isAnulada => correctOptionIndex == null;
+  bool get isAnulada => indiceOpcaoCorreta == null;
 
   QuestionModel({
     required this.id,
-    required this.question,
-    required this.options,
-    this.correctOptionIndex, // Agora é opcional
-    required this.category,
-    required this.difficulty,
+    required this.questao,
+    required this.opcoes,
+    this.indiceOpcaoCorreta, // Agora é opcional
+    required this.assunto,
+    required this.dificuldade,
     this.banca,
     this.ano,
     this.edital,
@@ -32,11 +32,11 @@ class QuestionModel {
   Map<String, dynamic> toMap() {
     return {
       'id': id,
-      'question': question,
-      'options': jsonEncode(options),
-      'correctOptionIndex': correctOptionIndex,
-      'category': category,
-      'difficulty': difficulty,
+      'questao': questao,
+      'opcoes': jsonEncode(opcoes),
+      'indiceOpcaoCorreta': indiceOpcaoCorreta,
+      'assunto': assunto,
+      'dificuldade': dificuldade,
       'banca': banca,
       'ano': ano,
       'edital': edital,
@@ -47,15 +47,15 @@ class QuestionModel {
   factory QuestionModel.fromMap(Map<String, dynamic> map) {
     return QuestionModel(
       id: map['id'] as int,
-      question: map['question'] as String,
-      options: List<String>.from(
-        map['options'] is String 
-          ? jsonDecode(map['options'])
-          : map['options'],
+      questao: map['questao'] as String,
+      opcoes: List<String>.from(
+        map['opcoes'] is String 
+          ? jsonDecode(map['opcoes'])
+          : map['opcoes'],
       ),
-      correctOptionIndex: map['correctOptionIndex'] as int?,
-      category: map['category'] as String,
-      difficulty: map['difficulty'] as int,
+      indiceOpcaoCorreta: map['indiceOpcaoCorreta'] as int?,
+      assunto: map['assunto'] as String,
+      dificuldade: map['dificuldade'] as int,
       banca: map['banca'] as String?,
       ano: map['ano'] as int?,
       edital: map['edital'] as String?,
@@ -70,6 +70,6 @@ class QuestionModel {
 
   @override
   String toString() {
-    return 'QuestionModel(id: $id, question: $question, options: $options, correctOptionIndex: $correctOptionIndex, category: $category, difficulty: $difficulty)';
+    return 'QuestionModel(id: $id, questao: $questao, opcoes: $opcoes, indiceOpcaoCorreta: $indiceOpcaoCorreta, assunto: $assunto, dificuldade: $dificuldade)';
   }
 }

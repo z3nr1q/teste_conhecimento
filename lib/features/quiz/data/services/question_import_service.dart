@@ -16,11 +16,15 @@ class QuestionImportService {
       final questions = jsonList.map((item) {
         return QuestionModel(
           id: item['id'],
-          question: item['question'],
-          options: List<String>.from(item['options']),
-          correctOptionIndex: item['correctOptionIndex'],
-          category: item['category'],
-          difficulty: item['difficulty'],
+          questao: item['questao'] ?? item['question'], // Suporta ambos os formatos
+          opcoes: List<String>.from(item['opcoes'] ?? item['options']), // Suporta ambos os formatos
+          indiceOpcaoCorreta: item['indiceOpcaoCorreta'] ?? item['correctOptionIndex'],
+          assunto: item['assunto'] ?? item['category'], // Suporta ambos os formatos
+          dificuldade: item['dificuldade'] ?? item['difficulty'], // Suporta ambos os formatos
+          banca: item['banca'],
+          ano: item['ano'],
+          edital: item['edital'],
+          nivel: item['nivel'],
         );
       }).toList();
 

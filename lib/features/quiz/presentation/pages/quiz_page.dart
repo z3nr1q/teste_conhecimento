@@ -101,13 +101,13 @@ class _QuizPageState extends State<QuizPage> {
             ),
             const SizedBox(height: 8),
             Text(
-              question.question,
+              question.questao,
               style: Theme.of(context).textTheme.bodyLarge,
             ),
             const SizedBox(height: 16),
             // Opções
             ...List.generate(
-              question.options.length,
+              question.opcoes.length,
               (index) => Padding(
                 padding: const EdgeInsets.only(bottom: 8.0),
                 child: Material(
@@ -126,7 +126,7 @@ class _QuizPageState extends State<QuizPage> {
                           ),
                           const SizedBox(width: 8),
                           Expanded(
-                            child: Text(question.options[index]),
+                            child: Text(question.opcoes[index]),
                           ),
                         ],
                       ),
@@ -177,7 +177,7 @@ class _QuizPageState extends State<QuizPage> {
       return Colors.orange.withOpacity(0.1);
     }
 
-    if (index == question.correctOptionIndex) {
+    if (index == question.indiceOpcaoCorreta) {
       return Colors.green.withOpacity(0.2);
     }
 
