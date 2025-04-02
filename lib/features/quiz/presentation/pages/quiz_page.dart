@@ -1,59 +1,190 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import '../bloc/quiz_bloc.dart';
-import '../bloc/quiz_state.dart';
-import '../bloc/quiz_event.dart';
-import '../widgets/question_card.dart';
-import '../widgets/result_card.dart';
+import 'package:provider/provider.dart';
+import '../../data/models/question_model.dart';
+import '../../data/repositories/quiz_repository.dart';
 
-class QuizPage extends StatelessWidget {
+class QuizPage extends StatefulWidget {
   const QuizPage({super.key});
 
   @override
+  State<QuizPage> createState() => _QuizPageState();
+}
+
+class _QuizPageState extends State<QuizPage> {
+  int _currentQuestionIndex = 0;
+  List<QuestionModel> _questions = [];
+  int? _selectedOption;
+  bool _showResult = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadQuestions();
+  }
+
+  Future<void> _loadQuestions() async {
+    final repository = Provider.of<QuizRepository>(context, listen: false);
+    final questions = await repository.getAllQuestions();
+    setState(() {
+      _questions = questions;
+    });
+  }
+
+  void _selectOption(int index) {
+    if (_showResult) return;
+    setState(() {
+      _selectedOption = index;
+    });
+  }
+
+  void _checkAnswer() {
+    setState(() {
+      _showResult = true;
+    });
+  }
+
+  void _nextQuestion() {
+    setState(() {
+      _currentQuestionIndex++;
+      _selectedOption = null;
+      _showResult = false;
+    });
+  }
+
+  @override
   Widget build(BuildContext context) {
-    // Disparar evento para carregar as questões assim que a página for construída
-    context.read<QuizBloc>().add(LoadQuizEvent());
+    if (_questions.isEmpty) {
+      return const Scaffold(
+        body: Center(
+          child: CircularProgressIndicator(),
+        ),
+      );
+    }
+
+    final question = _questions[_currentQuestionIndex];
+    final isLastQuestion = _currentQuestionIndex == _questions.length - 1;
 
     return Scaffold(
       appBar: AppBar(
         title: const Text('Quiz'),
       ),
-      body: BlocBuilder<QuizBloc, QuizState>(
-        builder: (context, state) {
-          if (state is QuizLoadingState) {
-            return const Center(child: CircularProgressIndicator());
-          } else if (state is QuizLoadedState) {
-            return state.isQuizFinished
-                ? ResultCard(
-                    score: state.score,
-                    totalQuestions: state.questions.length,
-                    onRestartQuiz: () {
-                      context.read<QuizBloc>().add(RestartQuizEvent());
-                    },
-                  )
-                : QuestionCard(
-                    question: state.currentQuestion,
-                    onAnswerSelected: (selectedIndex) {
-                      context.read<QuizBloc>().add(
-                            AnswerQuestionEvent(
-                              selectedOptionIndex: selectedIndex,
-                            ),
-                          );
-                    },
-                  );
-          } else if (state is QuizErrorState) {
-            return Center(
-              child: Text(
-                'Erro: ${state.message}',
-                style: const TextStyle(color: Colors.red),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            // Informações adicionais da questão
+            if (question.banca != null || question.ano != null || question.edital != null)
+              Card(
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      if (question.banca != null)
+                        Text('Banca: ${question.banca}'),
+                      if (question.ano != null)
+                        Text('Ano: ${question.ano}'),
+                      if (question.edital != null)
+                        Text('Edital: ${question.edital}'),
+                      if (question.nivel != null)
+                        Text('Nível: ${question.nivel}'),
+                    ],
+                  ),
+                ),
               ),
-            );
-          }
-          return const Center(
-            child: Text('Estado não tratado'),
-          );
-        },
+            const SizedBox(height: 16),
+            // Questão
+            Text(
+              'Questão ${_currentQuestionIndex + 1}/${_questions.length}',
+              style: Theme.of(context).textTheme.titleMedium,
+            ),
+            const SizedBox(height: 8),
+            Text(
+              question.question,
+              style: Theme.of(context).textTheme.bodyLarge,
+            ),
+            const SizedBox(height: 16),
+            // Opções
+            ...List.generate(
+              question.options.length,
+              (index) => Padding(
+                padding: const EdgeInsets.only(bottom: 8.0),
+                child: Material(
+                  color: _getOptionColor(index, question),
+                  borderRadius: BorderRadius.circular(8),
+                  child: InkWell(
+                    onTap: () => _selectOption(index),
+                    borderRadius: BorderRadius.circular(8),
+                    child: Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: Row(
+                        children: [
+                          Text(
+                            String.fromCharCode(65 + index),
+                            style: const TextStyle(fontWeight: FontWeight.bold),
+                          ),
+                          const SizedBox(width: 8),
+                          Expanded(
+                            child: Text(question.options[index]),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+            // Mensagem de questão anulada
+            if (question.isAnulada && _showResult)
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 16.0),
+                child: Text(
+                  'Questão anulada',
+                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                    color: Colors.orange,
+                    fontWeight: FontWeight.bold,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+              ),
+            const Spacer(),
+            // Botões
+            if (!_showResult)
+              ElevatedButton(
+                onPressed: _selectedOption != null ? _checkAnswer : null,
+                child: const Text('Verificar'),
+              )
+            else
+              ElevatedButton(
+                onPressed: !isLastQuestion ? _nextQuestion : null,
+                child: Text(isLastQuestion ? 'Finalizar' : 'Próxima'),
+              ),
+          ],
+        ),
       ),
     );
+  }
+
+  Color _getOptionColor(int index, QuestionModel question) {
+    if (!_showResult) {
+      return _selectedOption == index
+          ? Colors.blue.withOpacity(0.2)
+          : Colors.grey.withOpacity(0.1);
+    }
+
+    if (question.isAnulada) {
+      return Colors.orange.withOpacity(0.1);
+    }
+
+    if (index == question.correctOptionIndex) {
+      return Colors.green.withOpacity(0.2);
+    }
+
+    if (index == _selectedOption) {
+      return Colors.red.withOpacity(0.2);
+    }
+
+    return Colors.grey.withOpacity(0.1);
   }
 }

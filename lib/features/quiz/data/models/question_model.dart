@@ -4,27 +4,43 @@ class QuestionModel {
   final int id;
   final String question;
   final List<String> options;
-  final int correctOptionIndex;
+  final int? correctOptionIndex; // Pode ser nulo para questões anuladas
   final String category;
   final int difficulty;
+  
+  // Campos opcionais
+  final String? banca;
+  final int? ano;
+  final String? edital;
+  final String? nivel;
+
+  bool get isAnulada => correctOptionIndex == null;
 
   QuestionModel({
     required this.id,
     required this.question,
     required this.options,
-    required this.correctOptionIndex,
+    this.correctOptionIndex, // Agora é opcional
     required this.category,
     required this.difficulty,
+    this.banca,
+    this.ano,
+    this.edital,
+    this.nivel,
   });
 
   Map<String, dynamic> toMap() {
     return {
       'id': id,
       'question': question,
-      'options': jsonEncode(options), // Armazena as opções como JSON string
+      'options': jsonEncode(options),
       'correctOptionIndex': correctOptionIndex,
       'category': category,
       'difficulty': difficulty,
+      'banca': banca,
+      'ano': ano,
+      'edital': edital,
+      'nivel': nivel,
     };
   }
 
@@ -34,12 +50,16 @@ class QuestionModel {
       question: map['question'] as String,
       options: List<String>.from(
         map['options'] is String 
-          ? jsonDecode(map['options']) 
-          : map['options']
+          ? jsonDecode(map['options'])
+          : map['options'],
       ),
-      correctOptionIndex: map['correctOptionIndex'] as int,
+      correctOptionIndex: map['correctOptionIndex'] as int?,
       category: map['category'] as String,
       difficulty: map['difficulty'] as int,
+      banca: map['banca'] as String?,
+      ano: map['ano'] as int?,
+      edital: map['edital'] as String?,
+      nivel: map['nivel'] as String?,
     );
   }
 
