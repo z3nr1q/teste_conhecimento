@@ -25,6 +25,10 @@ class QuestionImportService {
           ano: item['ano'],
           edital: item['edital'],
           nivel: item['nivel'],
+          instituicao: item['instituicao'],
+          tipoInstituicao: item['tipoInstituicao'],
+          nivelInstituicao: item['nivelInstituicao'],
+          cargo: item['cargo'],
         );
       }).toList();
 

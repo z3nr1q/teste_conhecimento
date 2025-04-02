@@ -74,7 +74,10 @@ class _QuizPageState extends State<QuizPage> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             // Informações adicionais da questão
-            if (question.banca != null || question.ano != null || question.edital != null)
+            if (question.banca != null || question.ano != null || 
+                question.edital != null || question.instituicao != null ||
+                question.tipoInstituicao != null || question.nivelInstituicao != null ||
+                question.cargo != null)
               Card(
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
@@ -89,6 +92,14 @@ class _QuizPageState extends State<QuizPage> {
                         Text('Edital: ${question.edital}'),
                       if (question.nivel != null)
                         Text('Nível: ${question.nivel}'),
+                      if (question.instituicao != null)
+                        Text('Instituição: ${question.instituicao}'),
+                      if (question.tipoInstituicao != null)
+                        Text('Tipo de Instituição: ${question.tipoInstituicao}'),
+                      if (question.nivelInstituicao != null)
+                        Text('Nível da Instituição: ${question.nivelInstituicao}'),
+                      if (question.cargo != null)
+                        Text('Cargo: ${question.cargo}'),
                     ],
                   ),
                 ),

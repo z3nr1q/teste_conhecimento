@@ -13,6 +13,10 @@ class QuestionModel {
   final int? ano;
   final String? edital;
   final String? nivel;
+  final String? instituicao;
+  final String? tipoInstituicao;
+  final String? nivelInstituicao;
+  final String? cargo;
 
   bool get isAnulada => indiceOpcaoCorreta == null;
 
@@ -20,13 +24,17 @@ class QuestionModel {
     required this.id,
     required this.questao,
     required this.opcoes,
-    this.indiceOpcaoCorreta, // Agora é opcional
+    this.indiceOpcaoCorreta,
     required this.assunto,
     required this.dificuldade,
     this.banca,
     this.ano,
     this.edital,
     this.nivel,
+    this.instituicao,
+    this.tipoInstituicao,
+    this.nivelInstituicao,
+    this.cargo,
   });
 
   Map<String, dynamic> toMap() {
@@ -41,6 +49,10 @@ class QuestionModel {
       'ano': ano,
       'edital': edital,
       'nivel': nivel,
+      'instituicao': instituicao,
+      'tipoInstituicao': tipoInstituicao,
+      'nivelInstituicao': nivelInstituicao,
+      'cargo': cargo,
     };
   }
 
@@ -60,6 +72,10 @@ class QuestionModel {
       ano: map['ano'] as int?,
       edital: map['edital'] as String?,
       nivel: map['nivel'] as String?,
+      instituicao: map['instituicao'] as String?,
+      tipoInstituicao: map['tipoInstituicao'] as String?,
+      nivelInstituicao: map['nivelInstituicao'] as String?,
+      cargo: map['cargo'] as String?,
     );
   }
 
@@ -70,6 +86,6 @@ class QuestionModel {
 
   @override
   String toString() {
-    return 'QuestionModel(id: $id, questao: $questao, opcoes: $opcoes, indiceOpcaoCorreta: $indiceOpcaoCorreta, assunto: $assunto, dificuldade: $dificuldade)';
+    return 'QuestionModel(id: $id, questao: $questao, opcoes: $opcoes, indiceOpcaoCorreta: $indiceOpcaoCorreta, assunto: $assunto, dificuldade: $dificuldade, banca: $banca, ano: $ano, edital: $edital, nivel: $nivel, instituicao: $instituicao, tipoInstituicao: $tipoInstituicao, nivelInstituicao: $nivelInstituicao, cargo: $cargo)';
   }
 }
